@@ -6,6 +6,7 @@
  */
 
 import type { Food, FoodCategory } from '../types';
+import { translateQueryToEnglish } from './foodTranslations';
 
 export const USDA_BASE_URL = 'https://api.nal.usda.gov/fdc/v1';
 export const USDA_DEMO_KEY = 'DEMO_KEY';
@@ -96,7 +97,7 @@ export function convertUSDAFood(usdaFood: USDAFood): Food {
 
 export async function searchUSDA(query: string, apiKey = USDA_DEMO_KEY): Promise<Food[]> {
   const url = new URL(`${USDA_BASE_URL}/foods/search`);
-  url.searchParams.set('query', query);
+  url.searchParams.set('query', translateQueryToEnglish(query));
   url.searchParams.set('api_key', apiKey);
   url.searchParams.set('dataType', 'Foundation,SR Legacy');
   url.searchParams.set('pageSize', '15');
