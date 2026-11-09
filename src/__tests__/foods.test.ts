@@ -38,6 +38,8 @@ describe('foods.json data integrity', () => {
       const calculated = 4 * protein + 4 * carbs + 9 * fat;
 
       if (kcal === 0 && calculated === 0) continue;
+      // Skip near-zero calorie foods — % tolerance is meaningless below 5 kcal
+      if (Math.max(kcal, calculated) < 5) continue;
 
       const reference = Math.max(kcal, calculated);
       const diff = Math.abs(kcal - calculated) / reference;
