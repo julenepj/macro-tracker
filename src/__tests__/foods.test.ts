@@ -62,9 +62,9 @@ describe('foods.json data integrity', () => {
     expect(unique.size).toBe(ids.length);
   });
 
-  it('source field is USDA or custom', () => {
+  it('source field is USDA, BEDCA or custom', () => {
     for (const food of foods as Food[]) {
-      expect(['USDA', 'custom']).toContain(food.source);
+      expect(['USDA', 'BEDCA', 'custom']).toContain(food.source);
     }
   });
 });

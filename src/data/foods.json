@@ -1,48 +1,88 @@
 [
   {
-    "id": "chicken_breast_raw",
-    "name": "Pechuga de pollo (cruda)",
-    "baseName": "Pechuga de pollo",
+    "id": "aceite_aguacate",
+    "name": "Aceite de aguacate",
+    "baseName": "Aceite de aguacate",
+    "category": "aceites",
+    "per100g": {
+      "kcal": 884,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 100.0
+    },
+    "source": "USDA",
+    "fdcId": 173573
+  },
+  {
+    "id": "aceite_coco",
+    "name": "Aceite de coco",
+    "baseName": "Aceite de coco",
+    "category": "aceites",
+    "per100g": {
+      "kcal": 862,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 99.1
+    },
+    "source": "USDA",
+    "fdcId": 173754
+  },
+  {
+    "id": "aceite_girasol",
+    "name": "Aceite de girasol",
+    "baseName": "Aceite de girasol",
+    "category": "aceites",
+    "per100g": {
+      "kcal": 884,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 100
+    },
+    "source": "USDA",
+    "fdcId": 171410
+  },
+  {
+    "id": "aceite_oliva",
+    "name": "Aceite de oliva virgen extra",
+    "baseName": "Aceite de oliva",
+    "category": "aceites",
+    "per100g": {
+      "kcal": 884,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 100
+    },
+    "source": "USDA",
+    "fdcId": 171413
+  },
+  {
+    "id": "aceite_sesamo",
+    "name": "Aceite de sésamo",
+    "baseName": "Aceite de sésamo",
+    "category": "aceites",
+    "per100g": {
+      "kcal": 884,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 100.0
+    },
+    "source": "USDA",
+    "fdcId": 172338
+  },
+  {
+    "id": "pork_ground_raw",
+    "name": "Carne picada de cerdo (cruda)",
+    "baseName": "Carne picada de cerdo",
     "variant": "cruda",
     "category": "carnes",
     "per100g": {
-      "kcal": 120,
-      "protein": 22.5,
+      "kcal": 263,
+      "protein": 17.2,
       "carbs": 0,
-      "fat": 2.6
+      "fat": 21.4
     },
     "source": "USDA",
-    "fdcId": 171477
-  },
-  {
-    "id": "chicken_breast_cooked",
-    "name": "Pechuga de pollo (cocinada)",
-    "baseName": "Pechuga de pollo",
-    "variant": "cocinada",
-    "category": "carnes",
-    "per100g": {
-      "kcal": 165,
-      "protein": 31,
-      "carbs": 0,
-      "fat": 3.6
-    },
-    "source": "USDA",
-    "fdcId": 171478
-  },
-  {
-    "id": "chicken_thigh_raw",
-    "name": "Muslo de pollo (crudo)",
-    "baseName": "Muslo de pollo",
-    "variant": "cruda",
-    "category": "carnes",
-    "per100g": {
-      "kcal": 177,
-      "protein": 18.3,
-      "carbs": 0,
-      "fat": 11
-    },
-    "source": "USDA",
-    "fdcId": 171480
+    "fdcId": 168292
   },
   {
     "id": "beef_ground_raw",
@@ -60,64 +100,88 @@
     "fdcId": 174033
   },
   {
-    "id": "beef_sirloin_raw",
-    "name": "Solomillo de ternera (crudo)",
-    "baseName": "Solomillo de ternera",
+    "id": "chorizo",
+    "name": "Chorizo",
+    "baseName": "Chorizo",
+    "category": "carnes",
+    "per100g": {
+      "kcal": 455,
+      "protein": 24.1,
+      "carbs": 1.9,
+      "fat": 38.9
+    },
+    "source": "USDA",
+    "fdcId": 174366
+  },
+  {
+    "id": "conejo_raw",
+    "name": "Conejo (crudo)",
+    "baseName": "Conejo",
     "variant": "cruda",
     "category": "carnes",
     "per100g": {
-      "kcal": 158,
-      "protein": 22,
+      "kcal": 136,
+      "protein": 20.1,
       "carbs": 0,
-      "fat": 7.6
+      "fat": 6.0
+    },
+    "source": "BEDCA"
+  },
+  {
+    "id": "pork_ribs_raw",
+    "name": "Costillas de cerdo (crudas)",
+    "baseName": "Costillas de cerdo",
+    "variant": "cruda",
+    "category": "carnes",
+    "per100g": {
+      "kcal": 290,
+      "protein": 14.7,
+      "carbs": 0,
+      "fat": 25.3
+    },
+    "source": "USDA",
+    "fdcId": 168280
+  },
+  {
+    "id": "beef_cooked",
+    "name": "Filete de ternera (cocinado)",
+    "baseName": "Filete de ternera",
+    "variant": "cocinada",
+    "category": "carnes",
+    "per100g": {
+      "kcal": 183,
+      "protein": 29.3,
+      "carbs": 0,
+      "fat": 6.5
     },
     "source": "USDA",
     "fdcId": 174030
   },
   {
-    "id": "pork_loin_raw",
-    "name": "Lomo de cerdo (crudo)",
-    "baseName": "Lomo de cerdo",
-    "variant": "cruda",
+    "id": "fuet",
+    "name": "Fuet",
+    "baseName": "Fuet",
     "category": "carnes",
     "per100g": {
-      "kcal": 182,
-      "protein": 21.9,
-      "carbs": 0,
-      "fat": 10.2
+      "kcal": 405,
+      "protein": 24.3,
+      "carbs": 1.4,
+      "fat": 33.7
     },
-    "source": "USDA",
-    "fdcId": 168351
+    "source": "BEDCA"
   },
   {
-    "id": "lamb_leg_raw",
-    "name": "Pierna de cordero (cruda)",
-    "baseName": "Pierna de cordero",
-    "variant": "cruda",
+    "id": "jamon_iberico",
+    "name": "Jamón ibérico",
+    "baseName": "Jamón ibérico",
     "category": "carnes",
     "per100g": {
-      "kcal": 206,
-      "protein": 18.7,
-      "carbs": 0,
-      "fat": 14.3
+      "kcal": 349,
+      "protein": 30.3,
+      "carbs": 0.5,
+      "fat": 24.4
     },
-    "source": "USDA",
-    "fdcId": 174378
-  },
-  {
-    "id": "turkey_breast_raw",
-    "name": "Pechuga de pavo (cruda)",
-    "baseName": "Pechuga de pavo",
-    "variant": "cruda",
-    "category": "carnes",
-    "per100g": {
-      "kcal": 104,
-      "protein": 21.8,
-      "carbs": 0.9,
-      "fat": 1
-    },
-    "source": "USDA",
-    "fdcId": 171491
+    "source": "BEDCA"
   },
   {
     "id": "jamon_serrano",
@@ -148,18 +212,209 @@
     "fdcId": 172927
   },
   {
-    "id": "chorizo",
-    "name": "Chorizo",
-    "baseName": "Chorizo",
+    "id": "pork_loin_raw",
+    "name": "Lomo de cerdo (crudo)",
+    "baseName": "Lomo de cerdo",
+    "variant": "cruda",
     "category": "carnes",
     "per100g": {
-      "kcal": 455,
-      "protein": 24.1,
-      "carbs": 1.9,
-      "fat": 38.9
+      "kcal": 182,
+      "protein": 21.9,
+      "carbs": 0,
+      "fat": 10.2
     },
     "source": "USDA",
-    "fdcId": 174366
+    "fdcId": 168351
+  },
+  {
+    "id": "lomo_embuchado",
+    "name": "Lomo embuchado",
+    "baseName": "Lomo embuchado",
+    "category": "carnes",
+    "per100g": {
+      "kcal": 234,
+      "protein": 30.4,
+      "carbs": 0.3,
+      "fat": 12.5
+    },
+    "source": "BEDCA"
+  },
+  {
+    "id": "morcilla",
+    "name": "Morcilla",
+    "baseName": "Morcilla",
+    "category": "carnes",
+    "per100g": {
+      "kcal": 378,
+      "protein": 12.5,
+      "carbs": 16.5,
+      "fat": 30.5
+    },
+    "source": "BEDCA"
+  },
+  {
+    "id": "mortadela",
+    "name": "Mortadela",
+    "baseName": "Mortadela",
+    "category": "carnes",
+    "per100g": {
+      "kcal": 311,
+      "protein": 14.1,
+      "carbs": 2.9,
+      "fat": 27.4
+    },
+    "source": "USDA",
+    "fdcId": 174605
+  },
+  {
+    "id": "pollo_muslo_cocido",
+    "name": "Muslo de pollo (cocinado)",
+    "baseName": "Muslo de pollo",
+    "variant": "cocinada",
+    "category": "carnes",
+    "per100g": {
+      "kcal": 209,
+      "protein": 24.1,
+      "carbs": 0,
+      "fat": 12.2
+    },
+    "source": "USDA",
+    "fdcId": 171489
+  },
+  {
+    "id": "chicken_thigh_raw",
+    "name": "Muslo de pollo (crudo)",
+    "baseName": "Muslo de pollo",
+    "variant": "cruda",
+    "category": "carnes",
+    "per100g": {
+      "kcal": 177,
+      "protein": 18.3,
+      "carbs": 0,
+      "fat": 11
+    },
+    "source": "USDA",
+    "fdcId": 171480
+  },
+  {
+    "id": "pork_belly_raw",
+    "name": "Panceta de cerdo (cruda)",
+    "baseName": "Panceta de cerdo",
+    "variant": "cruda",
+    "category": "carnes",
+    "per100g": {
+      "kcal": 458,
+      "protein": 9.3,
+      "carbs": 0,
+      "fat": 46.7
+    },
+    "source": "USDA",
+    "fdcId": 168289
+  },
+  {
+    "id": "pato_raw",
+    "name": "Pato (crudo, sin piel)",
+    "baseName": "Pato",
+    "variant": "cruda",
+    "category": "carnes",
+    "per100g": {
+      "kcal": 201,
+      "protein": 23.5,
+      "carbs": 0,
+      "fat": 11.2
+    },
+    "source": "USDA",
+    "fdcId": 171501
+  },
+  {
+    "id": "turkey_breast_cooked",
+    "name": "Pechuga de pavo (cocinada)",
+    "baseName": "Pechuga de pavo",
+    "variant": "cocinada",
+    "category": "carnes",
+    "per100g": {
+      "kcal": 183,
+      "protein": 29.0,
+      "carbs": 0,
+      "fat": 6.5
+    },
+    "source": "USDA",
+    "fdcId": 171489
+  },
+  {
+    "id": "turkey_breast_raw",
+    "name": "Pechuga de pavo (cruda)",
+    "baseName": "Pechuga de pavo",
+    "variant": "cruda",
+    "category": "carnes",
+    "per100g": {
+      "kcal": 104,
+      "protein": 21.8,
+      "carbs": 0.9,
+      "fat": 1
+    },
+    "source": "USDA",
+    "fdcId": 171491
+  },
+  {
+    "id": "chicken_breast_cooked",
+    "name": "Pechuga de pollo (cocinada)",
+    "baseName": "Pechuga de pollo",
+    "variant": "cocinada",
+    "category": "carnes",
+    "per100g": {
+      "kcal": 165,
+      "protein": 31,
+      "carbs": 0,
+      "fat": 3.6
+    },
+    "source": "USDA",
+    "fdcId": 171478
+  },
+  {
+    "id": "chicken_breast_raw",
+    "name": "Pechuga de pollo (cruda)",
+    "baseName": "Pechuga de pollo",
+    "variant": "cruda",
+    "category": "carnes",
+    "per100g": {
+      "kcal": 120,
+      "protein": 22.5,
+      "carbs": 0,
+      "fat": 2.6
+    },
+    "source": "USDA",
+    "fdcId": 171477
+  },
+  {
+    "id": "lamb_leg_raw",
+    "name": "Pierna de cordero (cruda)",
+    "baseName": "Pierna de cordero",
+    "variant": "cruda",
+    "category": "carnes",
+    "per100g": {
+      "kcal": 206,
+      "protein": 18.7,
+      "carbs": 0,
+      "fat": 14.3
+    },
+    "source": "USDA",
+    "fdcId": 174378
+  },
+  {
+    "id": "pollo_entero_raw",
+    "name": "Pollo entero (crudo, sin piel)",
+    "baseName": "Pollo entero",
+    "variant": "cruda",
+    "category": "carnes",
+    "per100g": {
+      "kcal": 143,
+      "protein": 21.4,
+      "carbs": 0,
+      "fat": 5.9
+    },
+    "source": "USDA",
+    "fdcId": 171486
   },
   {
     "id": "salchichon",
@@ -176,531 +431,19 @@
     "fdcId": 174367
   },
   {
-    "id": "tuna_canned",
-    "name": "Atún en lata (en agua)",
-    "baseName": "Atún en lata",
-    "category": "pescados",
+    "id": "beef_sirloin_raw",
+    "name": "Solomillo de ternera (crudo)",
+    "baseName": "Solomillo de ternera",
+    "variant": "cruda",
+    "category": "carnes",
     "per100g": {
-      "kcal": 116,
-      "protein": 25.5,
+      "kcal": 158,
+      "protein": 22,
       "carbs": 0,
-      "fat": 1
+      "fat": 7.6
     },
     "source": "USDA",
-    "fdcId": 175159
-  },
-  {
-    "id": "tuna_fresh_raw",
-    "name": "Atún fresco (crudo)",
-    "baseName": "Atún fresco",
-    "variant": "cruda",
-    "category": "pescados",
-    "per100g": {
-      "kcal": 144,
-      "protein": 23.3,
-      "carbs": 0,
-      "fat": 4.9
-    },
-    "source": "USDA",
-    "fdcId": 175158
-  },
-  {
-    "id": "salmon_raw",
-    "name": "Salmón (crudo)",
-    "baseName": "Salmón",
-    "variant": "cruda",
-    "category": "pescados",
-    "per100g": {
-      "kcal": 208,
-      "protein": 20.1,
-      "carbs": 0,
-      "fat": 13.4
-    },
-    "source": "USDA",
-    "fdcId": 175167
-  },
-  {
-    "id": "merluza_raw",
-    "name": "Merluza (cruda)",
-    "baseName": "Merluza",
-    "variant": "cruda",
-    "category": "pescados",
-    "per100g": {
-      "kcal": 90,
-      "protein": 17.8,
-      "carbs": 0,
-      "fat": 2
-    },
-    "source": "USDA",
-    "fdcId": 175129
-  },
-  {
-    "id": "sardinas_canned",
-    "name": "Sardinas en lata (en aceite)",
-    "baseName": "Sardinas en lata",
-    "category": "pescados",
-    "per100g": {
-      "kcal": 208,
-      "protein": 24.6,
-      "carbs": 0,
-      "fat": 11.5
-    },
-    "source": "USDA",
-    "fdcId": 175139
-  },
-  {
-    "id": "bacalao_raw",
-    "name": "Bacalao (crudo)",
-    "baseName": "Bacalao",
-    "variant": "cruda",
-    "category": "pescados",
-    "per100g": {
-      "kcal": 82,
-      "protein": 17.8,
-      "carbs": 0,
-      "fat": 0.7
-    },
-    "source": "USDA",
-    "fdcId": 174183
-  },
-  {
-    "id": "gambas_raw",
-    "name": "Gambas (crudas)",
-    "baseName": "Gambas",
-    "variant": "cruda",
-    "category": "pescados",
-    "per100g": {
-      "kcal": 85,
-      "protein": 18,
-      "carbs": 0.9,
-      "fat": 0.5
-    },
-    "source": "USDA",
-    "fdcId": 175180
-  },
-  {
-    "id": "mejillones_cooked",
-    "name": "Mejillones (cocidos)",
-    "baseName": "Mejillones",
-    "variant": "cocinada",
-    "category": "pescados",
-    "per100g": {
-      "kcal": 172,
-      "protein": 23.8,
-      "carbs": 7.4,
-      "fat": 4.5
-    },
-    "source": "USDA",
-    "fdcId": 175177
-  },
-  {
-    "id": "rape_raw",
-    "name": "Rape (crudo)",
-    "baseName": "Rape",
-    "variant": "cruda",
-    "category": "pescados",
-    "per100g": {
-      "kcal": 76,
-      "protein": 14.5,
-      "carbs": 0,
-      "fat": 1.5
-    },
-    "source": "USDA",
-    "fdcId": 175134
-  },
-  {
-    "id": "dorada_raw",
-    "name": "Dorada (cruda)",
-    "baseName": "Dorada",
-    "variant": "cruda",
-    "category": "pescados",
-    "per100g": {
-      "kcal": 96,
-      "protein": 18.8,
-      "carbs": 0,
-      "fat": 2
-    },
-    "source": "USDA",
-    "fdcId": 174199
-  },
-  {
-    "id": "lubina_raw",
-    "name": "Lubina (cruda)",
-    "baseName": "Lubina",
-    "variant": "cruda",
-    "category": "pescados",
-    "per100g": {
-      "kcal": 97,
-      "protein": 18.4,
-      "carbs": 0,
-      "fat": 2.5
-    },
-    "source": "USDA",
-    "fdcId": 174200
-  },
-  {
-    "id": "huevo_entero",
-    "name": "Huevo entero",
-    "baseName": "Huevo entero",
-    "category": "huevos",
-    "per100g": {
-      "kcal": 143,
-      "protein": 12.6,
-      "carbs": 0.7,
-      "fat": 9.5
-    },
-    "source": "USDA",
-    "fdcId": 173424
-  },
-  {
-    "id": "clara_huevo",
-    "name": "Clara de huevo",
-    "baseName": "Clara de huevo",
-    "category": "huevos",
-    "per100g": {
-      "kcal": 52,
-      "protein": 10.9,
-      "carbs": 0.7,
-      "fat": 0.2
-    },
-    "source": "USDA",
-    "fdcId": 172184
-  },
-  {
-    "id": "yema_huevo",
-    "name": "Yema de huevo",
-    "baseName": "Yema de huevo",
-    "category": "huevos",
-    "per100g": {
-      "kcal": 322,
-      "protein": 15.9,
-      "carbs": 3.6,
-      "fat": 26.5
-    },
-    "source": "USDA",
-    "fdcId": 172185
-  },
-  {
-    "id": "leche_entera",
-    "name": "Leche entera",
-    "baseName": "Leche entera",
-    "category": "lacteos",
-    "per100g": {
-      "kcal": 61,
-      "protein": 3.2,
-      "carbs": 4.8,
-      "fat": 3.3
-    },
-    "source": "USDA",
-    "fdcId": 171265
-  },
-  {
-    "id": "leche_semidesnatada",
-    "name": "Leche semidesnatada",
-    "baseName": "Leche semidesnatada",
-    "category": "lacteos",
-    "per100g": {
-      "kcal": 46,
-      "protein": 3.3,
-      "carbs": 4.8,
-      "fat": 1.5
-    },
-    "source": "USDA",
-    "fdcId": 171266
-  },
-  {
-    "id": "leche_desnatada",
-    "name": "Leche desnatada",
-    "baseName": "Leche desnatada",
-    "category": "lacteos",
-    "per100g": {
-      "kcal": 34,
-      "protein": 3.4,
-      "carbs": 5.1,
-      "fat": 0.1
-    },
-    "source": "USDA",
-    "fdcId": 171267
-  },
-  {
-    "id": "yogur_natural",
-    "name": "Yogur natural",
-    "baseName": "Yogur natural",
-    "category": "lacteos",
-    "per100g": {
-      "kcal": 59,
-      "protein": 3.5,
-      "carbs": 4.7,
-      "fat": 3.3
-    },
-    "source": "USDA",
-    "fdcId": 170886
-  },
-  {
-    "id": "yogur_griego",
-    "name": "Yogur griego",
-    "baseName": "Yogur griego",
-    "category": "lacteos",
-    "per100g": {
-      "kcal": 97,
-      "protein": 9,
-      "carbs": 3.6,
-      "fat": 5
-    },
-    "source": "USDA",
-    "fdcId": 170887
-  },
-  {
-    "id": "queso_manchego",
-    "name": "Queso manchego",
-    "baseName": "Queso manchego",
-    "category": "lacteos",
-    "per100g": {
-      "kcal": 395,
-      "protein": 26.9,
-      "carbs": 0.5,
-      "fat": 32
-    },
-    "source": "USDA",
-    "fdcId": 173420
-  },
-  {
-    "id": "queso_fresco",
-    "name": "Queso fresco",
-    "baseName": "Queso fresco",
-    "category": "lacteos",
-    "per100g": {
-      "kcal": 99,
-      "protein": 11.1,
-      "carbs": 3.4,
-      "fat": 4
-    },
-    "source": "USDA",
-    "fdcId": 173418
-  },
-  {
-    "id": "queso_brie",
-    "name": "Queso brie",
-    "baseName": "Queso brie",
-    "category": "lacteos",
-    "per100g": {
-      "kcal": 334,
-      "protein": 20.7,
-      "carbs": 0.5,
-      "fat": 27.7
-    },
-    "source": "USDA",
-    "fdcId": 173418
-  },
-  {
-    "id": "requeson",
-    "name": "Requesón",
-    "baseName": "Requesón",
-    "category": "lacteos",
-    "per100g": {
-      "kcal": 98,
-      "protein": 11.1,
-      "carbs": 3.4,
-      "fat": 4.3
-    },
-    "source": "USDA",
-    "fdcId": 173420
-  },
-  {
-    "id": "nata_liquida",
-    "name": "Nata para cocinar",
-    "baseName": "Nata",
-    "category": "lacteos",
-    "per100g": {
-      "kcal": 292,
-      "protein": 2.1,
-      "carbs": 3.4,
-      "fat": 29.9
-    },
-    "source": "USDA",
-    "fdcId": 170859
-  },
-  {
-    "id": "mantequilla",
-    "name": "Mantequilla",
-    "baseName": "Mantequilla",
-    "category": "lacteos",
-    "per100g": {
-      "kcal": 717,
-      "protein": 0.9,
-      "carbs": 0.1,
-      "fat": 81.1
-    },
-    "source": "USDA",
-    "fdcId": 173430
-  },
-  {
-    "id": "mozzarella",
-    "name": "Mozzarella",
-    "baseName": "Mozzarella",
-    "category": "lacteos",
-    "per100g": {
-      "kcal": 280,
-      "protein": 28.1,
-      "carbs": 3.1,
-      "fat": 17
-    },
-    "source": "USDA",
-    "fdcId": 170848
-  },
-  {
-    "id": "garbanzos_crudos",
-    "name": "Garbanzos (crudos)",
-    "baseName": "Garbanzos",
-    "variant": "cruda",
-    "category": "legumbres",
-    "per100g": {
-      "kcal": 364,
-      "protein": 19.3,
-      "carbs": 61,
-      "fat": 6,
-      "fiber": 17.4
-    },
-    "source": "USDA",
-    "fdcId": 173756
-  },
-  {
-    "id": "garbanzos_cocidos",
-    "name": "Garbanzos (cocidos)",
-    "baseName": "Garbanzos",
-    "variant": "cocinada",
-    "category": "legumbres",
-    "per100g": {
-      "kcal": 164,
-      "protein": 8.9,
-      "carbs": 27.4,
-      "fat": 2.6,
-      "fiber": 7.6
-    },
-    "source": "USDA",
-    "fdcId": 173757
-  },
-  {
-    "id": "lentejas_crudas",
-    "name": "Lentejas (crudas)",
-    "baseName": "Lentejas",
-    "variant": "cruda",
-    "category": "legumbres",
-    "per100g": {
-      "kcal": 352,
-      "protein": 24.6,
-      "carbs": 60.1,
-      "fat": 1.1,
-      "fiber": 10.7
-    },
-    "source": "USDA",
-    "fdcId": 172420
-  },
-  {
-    "id": "lentejas_cocidas",
-    "name": "Lentejas (cocidas)",
-    "baseName": "Lentejas",
-    "variant": "cocinada",
-    "category": "legumbres",
-    "per100g": {
-      "kcal": 116,
-      "protein": 9,
-      "carbs": 20.1,
-      "fat": 0.4,
-      "fiber": 7.9
-    },
-    "source": "USDA",
-    "fdcId": 172421
-  },
-  {
-    "id": "alubias_cocidas",
-    "name": "Alubias blancas (cocidas)",
-    "baseName": "Alubias blancas",
-    "variant": "cocinada",
-    "category": "legumbres",
-    "per100g": {
-      "kcal": 139,
-      "protein": 9.7,
-      "carbs": 25.1,
-      "fat": 0.4,
-      "fiber": 10.5
-    },
-    "source": "USDA",
-    "fdcId": 175194
-  },
-  {
-    "id": "soja_cocida",
-    "name": "Soja (cocida)",
-    "baseName": "Soja",
-    "variant": "cocinada",
-    "category": "legumbres",
-    "per100g": {
-      "kcal": 173,
-      "protein": 16.6,
-      "carbs": 9.9,
-      "fat": 9,
-      "fiber": 6
-    },
-    "source": "USDA",
-    "fdcId": 174270
-  },
-  {
-    "id": "tofu",
-    "name": "Tofu (firme)",
-    "baseName": "Tofu",
-    "category": "legumbres",
-    "per100g": {
-      "kcal": 76,
-      "protein": 8.1,
-      "carbs": 1.9,
-      "fat": 4.2
-    },
-    "source": "USDA",
-    "fdcId": 172470
-  },
-  {
-    "id": "tempeh",
-    "name": "Tempeh",
-    "baseName": "Tempeh",
-    "category": "legumbres",
-    "per100g": {
-      "kcal": 193,
-      "protein": 20.3,
-      "carbs": 7.6,
-      "fat": 10.8
-    },
-    "source": "USDA",
-    "fdcId": 174272
-  },
-  {
-    "id": "edamame",
-    "name": "Edamame",
-    "baseName": "Edamame",
-    "category": "legumbres",
-    "per100g": {
-      "kcal": 122,
-      "protein": 11.9,
-      "carbs": 8.9,
-      "fat": 5.2,
-      "fiber": 5.2
-    },
-    "source": "USDA",
-    "fdcId": 168411
-  },
-  {
-    "id": "arroz_crudo",
-    "name": "Arroz blanco (crudo)",
-    "baseName": "Arroz blanco",
-    "variant": "cruda",
-    "category": "cereales",
-    "per100g": {
-      "kcal": 365,
-      "protein": 7.1,
-      "carbs": 80,
-      "fat": 0.7
-    },
-    "source": "USDA",
-    "fdcId": 168878
+    "fdcId": 174030
   },
   {
     "id": "arroz_cocido",
@@ -718,63 +461,49 @@
     "fdcId": 168879
   },
   {
-    "id": "pasta_cruda",
-    "name": "Pasta (cruda)",
-    "baseName": "Pasta",
+    "id": "arroz_crudo",
+    "name": "Arroz blanco (crudo)",
+    "baseName": "Arroz blanco",
     "variant": "cruda",
     "category": "cereales",
     "per100g": {
-      "kcal": 371,
-      "protein": 13,
-      "carbs": 74.7,
-      "fat": 1.5
+      "kcal": 365,
+      "protein": 7.1,
+      "carbs": 80,
+      "fat": 0.7
     },
     "source": "USDA",
-    "fdcId": 168879
+    "fdcId": 168878
   },
   {
-    "id": "pasta_cocida",
-    "name": "Pasta (cocida)",
-    "baseName": "Pasta",
+    "id": "arroz_integral_cocido",
+    "name": "Arroz integral (cocido)",
+    "baseName": "Arroz integral",
     "variant": "cocinada",
     "category": "cereales",
     "per100g": {
-      "kcal": 158,
-      "protein": 5.8,
-      "carbs": 30.9,
+      "kcal": 112,
+      "protein": 2.3,
+      "carbs": 23.6,
       "fat": 0.9
     },
     "source": "USDA",
-    "fdcId": 168881
+    "fdcId": 169704
   },
   {
-    "id": "pan_blanco",
-    "name": "Pan blanco",
-    "baseName": "Pan blanco",
+    "id": "arroz_integral_crudo",
+    "name": "Arroz integral (crudo)",
+    "baseName": "Arroz integral",
+    "variant": "cruda",
     "category": "cereales",
     "per100g": {
-      "kcal": 265,
-      "protein": 9,
-      "carbs": 49,
-      "fat": 3.2
+      "kcal": 362,
+      "protein": 7.5,
+      "carbs": 75.6,
+      "fat": 2.9
     },
     "source": "USDA",
-    "fdcId": 172687
-  },
-  {
-    "id": "pan_integral",
-    "name": "Pan integral",
-    "baseName": "Pan integral",
-    "category": "cereales",
-    "per100g": {
-      "kcal": 247,
-      "protein": 13,
-      "carbs": 41,
-      "fat": 4.2,
-      "fiber": 7
-    },
-    "source": "USDA",
-    "fdcId": 172688
+    "fdcId": 169704
   },
   {
     "id": "avena",
@@ -792,20 +521,235 @@
     "fdcId": 173904
   },
   {
-    "id": "quinoa_cruda",
-    "name": "Quinoa (cruda)",
-    "baseName": "Quinoa",
-    "variant": "cruda",
+    "id": "bulgur_cocido",
+    "name": "Bulgur (cocido)",
+    "baseName": "Bulgur",
+    "variant": "cocinada",
     "category": "cereales",
     "per100g": {
-      "kcal": 368,
-      "protein": 14.1,
-      "carbs": 64.2,
-      "fat": 6.1,
+      "kcal": 83,
+      "protein": 3.1,
+      "carbs": 18.6,
+      "fat": 0.2
+    },
+    "source": "USDA",
+    "fdcId": 170285
+  },
+  {
+    "id": "copos_maiz",
+    "name": "Copos de maíz (corn flakes)",
+    "baseName": "Copos de maíz",
+    "category": "cereales",
+    "per100g": {
+      "kcal": 357,
+      "protein": 7.5,
+      "carbs": 84.1,
+      "fat": 0.4
+    },
+    "source": "USDA",
+    "fdcId": 173264
+  },
+  {
+    "id": "cuscus_cocido",
+    "name": "Cuscús (cocido)",
+    "baseName": "Cuscús",
+    "variant": "cocinada",
+    "category": "cereales",
+    "per100g": {
+      "kcal": 112,
+      "protein": 3.8,
+      "carbs": 23.2,
+      "fat": 0.2
+    },
+    "source": "USDA",
+    "fdcId": 169696
+  },
+  {
+    "id": "galletas_digestive",
+    "name": "Galletas tipo digestive",
+    "baseName": "Galletas digestive",
+    "category": "cereales",
+    "per100g": {
+      "kcal": 471,
+      "protein": 6.3,
+      "carbs": 62.5,
+      "fat": 21.4
+    },
+    "source": "USDA",
+    "fdcId": 172897
+  },
+  {
+    "id": "espelta_harina",
+    "name": "Harina de espelta",
+    "baseName": "Harina de espelta",
+    "category": "cereales",
+    "per100g": {
+      "kcal": 338,
+      "protein": 14.6,
+      "carbs": 70.2,
+      "fat": 2.4
+    },
+    "source": "USDA",
+    "fdcId": 168905
+  },
+  {
+    "id": "harina_trigo",
+    "name": "Harina de trigo (blanca)",
+    "baseName": "Harina de trigo",
+    "category": "cereales",
+    "per100g": {
+      "kcal": 364,
+      "protein": 10.3,
+      "carbs": 76.3,
+      "fat": 1
+    },
+    "source": "USDA",
+    "fdcId": 169761
+  },
+  {
+    "id": "muesli",
+    "name": "Muesli (con frutas y frutos secos)",
+    "baseName": "Muesli",
+    "category": "cereales",
+    "per100g": {
+      "kcal": 364,
+      "protein": 10.5,
+      "carbs": 65.2,
+      "fat": 7.1
+    },
+    "source": "USDA",
+    "fdcId": 173283
+  },
+  {
+    "id": "pan_blanco",
+    "name": "Pan blanco",
+    "baseName": "Pan blanco",
+    "category": "cereales",
+    "per100g": {
+      "kcal": 265,
+      "protein": 9,
+      "carbs": 49,
+      "fat": 3.2
+    },
+    "source": "USDA",
+    "fdcId": 172687
+  },
+  {
+    "id": "pan_centeno",
+    "name": "Pan de centeno",
+    "baseName": "Pan de centeno",
+    "category": "cereales",
+    "per100g": {
+      "kcal": 258,
+      "protein": 8.5,
+      "carbs": 48.3,
+      "fat": 3.3,
+      "fiber": 5.8
+    },
+    "source": "USDA",
+    "fdcId": 172688
+  },
+  {
+    "id": "pan_molde",
+    "name": "Pan de molde blanco",
+    "baseName": "Pan de molde",
+    "category": "cereales",
+    "per100g": {
+      "kcal": 266,
+      "protein": 8.5,
+      "carbs": 49.6,
+      "fat": 3.3
+    },
+    "source": "BEDCA"
+  },
+  {
+    "id": "pan_pita",
+    "name": "Pan de pita",
+    "baseName": "Pan de pita",
+    "category": "cereales",
+    "per100g": {
+      "kcal": 275,
+      "protein": 9.1,
+      "carbs": 55.7,
+      "fat": 1.2
+    },
+    "source": "USDA",
+    "fdcId": 173282
+  },
+  {
+    "id": "pan_integral",
+    "name": "Pan integral",
+    "baseName": "Pan integral",
+    "category": "cereales",
+    "per100g": {
+      "kcal": 247,
+      "protein": 13,
+      "carbs": 41,
+      "fat": 4.2,
       "fiber": 7
     },
     "source": "USDA",
-    "fdcId": 168917
+    "fdcId": 172688
+  },
+  {
+    "id": "pasta_cocida",
+    "name": "Pasta (cocida)",
+    "baseName": "Pasta",
+    "variant": "cocinada",
+    "category": "cereales",
+    "per100g": {
+      "kcal": 158,
+      "protein": 5.8,
+      "carbs": 30.9,
+      "fat": 0.9
+    },
+    "source": "USDA",
+    "fdcId": 168881
+  },
+  {
+    "id": "pasta_cruda",
+    "name": "Pasta (cruda)",
+    "baseName": "Pasta",
+    "variant": "cruda",
+    "category": "cereales",
+    "per100g": {
+      "kcal": 371,
+      "protein": 13,
+      "carbs": 74.7,
+      "fat": 1.5
+    },
+    "source": "USDA",
+    "fdcId": 168879
+  },
+  {
+    "id": "pasta_integral_cocida",
+    "name": "Pasta integral (cocida)",
+    "baseName": "Pasta integral",
+    "variant": "cocinada",
+    "category": "cereales",
+    "per100g": {
+      "kcal": 124,
+      "protein": 5.4,
+      "carbs": 26.5,
+      "fat": 0.8
+    },
+    "source": "USDA",
+    "fdcId": 170287
+  },
+  {
+    "id": "pasta_integral_cruda",
+    "name": "Pasta integral (cruda)",
+    "baseName": "Pasta integral",
+    "variant": "cruda",
+    "category": "cereales",
+    "per100g": {
+      "kcal": 348,
+      "protein": 14.6,
+      "carbs": 68.5,
+      "fat": 2.3
+    },
+    "source": "USDA",
+    "fdcId": 170287
   },
   {
     "id": "quinoa_cocida",
@@ -824,47 +768,20 @@
     "fdcId": 168917
   },
   {
-    "id": "copos_maiz",
-    "name": "Copos de maíz (corn flakes)",
-    "baseName": "Copos de maíz",
+    "id": "quinoa_cruda",
+    "name": "Quinoa (cruda)",
+    "baseName": "Quinoa",
+    "variant": "cruda",
     "category": "cereales",
     "per100g": {
-      "kcal": 357,
-      "protein": 7.5,
-      "carbs": 84.1,
-      "fat": 0.4
+      "kcal": 368,
+      "protein": 14.1,
+      "carbs": 64.2,
+      "fat": 6.1,
+      "fiber": 7
     },
     "source": "USDA",
-    "fdcId": 173264
-  },
-  {
-    "id": "pan_centeno",
-    "name": "Pan de centeno",
-    "baseName": "Pan de centeno",
-    "category": "cereales",
-    "per100g": {
-      "kcal": 258,
-      "protein": 8.5,
-      "carbs": 48.3,
-      "fat": 3.3,
-      "fiber": 5.8
-    },
-    "source": "USDA",
-    "fdcId": 172688
-  },
-  {
-    "id": "harina_trigo",
-    "name": "Harina de trigo (blanca)",
-    "baseName": "Harina de trigo",
-    "category": "cereales",
-    "per100g": {
-      "kcal": 364,
-      "protein": 10.3,
-      "carbs": 76.3,
-      "fat": 1
-    },
-    "source": "USDA",
-    "fdcId": 169761
+    "fdcId": 168917
   },
   {
     "id": "tortilla_maiz",
@@ -881,564 +798,32 @@
     "fdcId": 169717
   },
   {
-    "id": "espinacas",
-    "name": "Espinacas (crudas)",
-    "baseName": "Espinacas",
-    "variant": "cruda",
-    "category": "verduras",
+    "id": "tortita_arroz",
+    "name": "Tortitas de arroz",
+    "baseName": "Tortitas de arroz",
+    "category": "cereales",
     "per100g": {
-      "kcal": 30,
-      "protein": 2.9,
-      "carbs": 3.6,
-      "fat": 0.4,
-      "fiber": 2.2
+      "kcal": 384,
+      "protein": 8.1,
+      "carbs": 80.2,
+      "fat": 3.3
     },
     "source": "USDA",
-    "fdcId": 168462
+    "fdcId": 172897
   },
   {
-    "id": "brocoli",
-    "name": "Brócoli (crudo)",
-    "baseName": "Brócoli",
-    "variant": "cruda",
-    "category": "verduras",
+    "id": "albaricoque",
+    "name": "Albaricoque (crudo)",
+    "baseName": "Albaricoque",
+    "category": "frutas",
     "per100g": {
-      "kcal": 41,
-      "protein": 2.8,
-      "carbs": 6.6,
-      "fat": 0.4,
-      "fiber": 2.6
-    },
-    "source": "USDA",
-    "fdcId": 170379
-  },
-  {
-    "id": "zanahoria",
-    "name": "Zanahoria (cruda)",
-    "baseName": "Zanahoria",
-    "variant": "cruda",
-    "category": "verduras",
-    "per100g": {
-      "kcal": 41,
-      "protein": 0.9,
-      "carbs": 9.6,
-      "fat": 0.2,
-      "fiber": 2.8
-    },
-    "source": "USDA",
-    "fdcId": 170393
-  },
-  {
-    "id": "tomate",
-    "name": "Tomate (crudo)",
-    "baseName": "Tomate",
-    "variant": "cruda",
-    "category": "verduras",
-    "per100g": {
-      "kcal": 21,
-      "protein": 0.9,
-      "carbs": 3.9,
-      "fat": 0.2,
-      "fiber": 1.2
-    },
-    "source": "USDA",
-    "fdcId": 170457
-  },
-  {
-    "id": "pepino",
-    "name": "Pepino (crudo)",
-    "baseName": "Pepino",
-    "variant": "cruda",
-    "category": "verduras",
-    "per100g": {
-      "kcal": 18,
-      "protein": 0.7,
-      "carbs": 3.6,
-      "fat": 0.1,
-      "fiber": 0.5
-    },
-    "source": "USDA",
-    "fdcId": 168409
-  },
-  {
-    "id": "lechuga",
-    "name": "Lechuga (cruda)",
-    "baseName": "Lechuga",
-    "variant": "cruda",
-    "category": "verduras",
-    "per100g": {
-      "kcal": 19,
+      "kcal": 54,
       "protein": 1.4,
-      "carbs": 2.9,
-      "fat": 0.2,
-      "fiber": 1.3
+      "carbs": 11.1,
+      "fat": 0.4
     },
     "source": "USDA",
-    "fdcId": 169248
-  },
-  {
-    "id": "cebolla",
-    "name": "Cebolla (cruda)",
-    "baseName": "Cebolla",
-    "variant": "cruda",
-    "category": "verduras",
-    "per100g": {
-      "kcal": 40,
-      "protein": 1.1,
-      "carbs": 9.3,
-      "fat": 0.1,
-      "fiber": 1.7
-    },
-    "source": "USDA",
-    "fdcId": 170000
-  },
-  {
-    "id": "pimiento",
-    "name": "Pimiento rojo (crudo)",
-    "baseName": "Pimiento rojo",
-    "variant": "cruda",
-    "category": "verduras",
-    "per100g": {
-      "kcal": 36,
-      "protein": 1,
-      "carbs": 7.2,
-      "fat": 0.3,
-      "fiber": 2.1
-    },
-    "source": "USDA",
-    "fdcId": 170108
-  },
-  {
-    "id": "calabacin",
-    "name": "Calabacín (crudo)",
-    "baseName": "Calabacín",
-    "variant": "cruda",
-    "category": "verduras",
-    "per100g": {
-      "kcal": 20,
-      "protein": 1.2,
-      "carbs": 3.1,
-      "fat": 0.3,
-      "fiber": 1
-    },
-    "source": "USDA",
-    "fdcId": 169291
-  },
-  {
-    "id": "berenjena",
-    "name": "Berenjena (cruda)",
-    "baseName": "Berenjena",
-    "variant": "cruda",
-    "category": "verduras",
-    "per100g": {
-      "kcal": 29,
-      "protein": 1,
-      "carbs": 5.9,
-      "fat": 0.2,
-      "fiber": 3
-    },
-    "source": "USDA",
-    "fdcId": 169228
-  },
-  {
-    "id": "judias_verdes",
-    "name": "Judías verdes (crudas)",
-    "baseName": "Judías verdes",
-    "variant": "cruda",
-    "category": "verduras",
-    "per100g": {
-      "kcal": 36,
-      "protein": 1.8,
-      "carbs": 7,
-      "fat": 0.1,
-      "fiber": 2.7
-    },
-    "source": "USDA",
-    "fdcId": 169961
-  },
-  {
-    "id": "champinones",
-    "name": "Champiñones (crudos)",
-    "baseName": "Champiñones",
-    "variant": "cruda",
-    "category": "verduras",
-    "per100g": {
-      "kcal": 28,
-      "protein": 3.1,
-      "carbs": 3.3,
-      "fat": 0.3,
-      "fiber": 1
-    },
-    "source": "USDA",
-    "fdcId": 169251
-  },
-  {
-    "id": "coliflor",
-    "name": "Coliflor (cruda)",
-    "baseName": "Coliflor",
-    "variant": "cruda",
-    "category": "verduras",
-    "per100g": {
-      "kcal": 30,
-      "protein": 1.9,
-      "carbs": 5,
-      "fat": 0.3,
-      "fiber": 2
-    },
-    "source": "USDA",
-    "fdcId": 169986
-  },
-  {
-    "id": "ajo",
-    "name": "Ajo (crudo)",
-    "baseName": "Ajo",
-    "variant": "cruda",
-    "category": "verduras",
-    "per100g": {
-      "kcal": 149,
-      "protein": 6.4,
-      "carbs": 33.1,
-      "fat": 0.5,
-      "fiber": 2.1
-    },
-    "source": "USDA",
-    "fdcId": 169230
-  },
-  {
-    "id": "puerro",
-    "name": "Puerro (crudo)",
-    "baseName": "Puerro",
-    "variant": "cruda",
-    "category": "verduras",
-    "per100g": {
-      "kcal": 61,
-      "protein": 1.5,
-      "carbs": 14.2,
-      "fat": 0.3,
-      "fiber": 1.8
-    },
-    "source": "USDA",
-    "fdcId": 169247
-  },
-  {
-    "id": "acelgas",
-    "name": "Acelgas (crudas)",
-    "baseName": "Acelgas",
-    "variant": "cruda",
-    "category": "verduras",
-    "per100g": {
-      "kcal": 24,
-      "protein": 1.8,
-      "carbs": 3.7,
-      "fat": 0.2,
-      "fiber": 1.6
-    },
-    "source": "USDA",
-    "fdcId": 169991
-  },
-  {
-    "id": "remolacha",
-    "name": "Remolacha (cruda)",
-    "baseName": "Remolacha",
-    "variant": "cruda",
-    "category": "verduras",
-    "per100g": {
-      "kcal": 43,
-      "protein": 1.6,
-      "carbs": 9.6,
-      "fat": 0.2,
-      "fiber": 2.8
-    },
-    "source": "USDA",
-    "fdcId": 169143
-  },
-  {
-    "id": "maiz_dulce",
-    "name": "Maíz dulce (cocido)",
-    "baseName": "Maíz dulce",
-    "variant": "cocinada",
-    "category": "verduras",
-    "per100g": {
-      "kcal": 112,
-      "protein": 3.4,
-      "carbs": 21.1,
-      "fat": 1.5,
-      "fiber": 2.4
-    },
-    "source": "USDA",
-    "fdcId": 169998
-  },
-  {
-    "id": "guisantes",
-    "name": "Guisantes (crudos)",
-    "baseName": "Guisantes",
-    "variant": "cruda",
-    "category": "verduras",
-    "per100g": {
-      "kcal": 81,
-      "protein": 5.4,
-      "carbs": 14.5,
-      "fat": 0.4,
-      "fiber": 5.1
-    },
-    "source": "USDA",
-    "fdcId": 170419
-  },
-  {
-    "id": "apio",
-    "name": "Apio (crudo)",
-    "baseName": "Apio",
-    "variant": "cruda",
-    "category": "verduras",
-    "per100g": {
-      "kcal": 17,
-      "protein": 0.7,
-      "carbs": 3,
-      "fat": 0.2,
-      "fiber": 1.6
-    },
-    "source": "USDA",
-    "fdcId": 169988
-  },
-  {
-    "id": "col",
-    "name": "Col (cruda)",
-    "baseName": "Col",
-    "variant": "cruda",
-    "category": "verduras",
-    "per100g": {
-      "kcal": 29,
-      "protein": 1.3,
-      "carbs": 5.8,
-      "fat": 0.1,
-      "fiber": 2.5
-    },
-    "source": "USDA",
-    "fdcId": 169975
-  },
-  {
-    "id": "esparragos",
-    "name": "Espárragos (crudos)",
-    "baseName": "Espárragos",
-    "variant": "cruda",
-    "category": "verduras",
-    "per100g": {
-      "kcal": 25,
-      "protein": 2.2,
-      "carbs": 3.9,
-      "fat": 0.1,
-      "fiber": 2.1
-    },
-    "source": "USDA",
-    "fdcId": 168390
-  },
-  {
-    "id": "manzana",
-    "name": "Manzana (cruda)",
-    "baseName": "Manzana",
-    "variant": "cruda",
-    "category": "frutas",
-    "per100g": {
-      "kcal": 58,
-      "protein": 0.3,
-      "carbs": 13.8,
-      "fat": 0.2,
-      "fiber": 2.4
-    },
-    "source": "USDA",
-    "fdcId": 171688
-  },
-  {
-    "id": "platano",
-    "name": "Plátano (crudo)",
-    "baseName": "Plátano",
-    "variant": "cruda",
-    "category": "frutas",
-    "per100g": {
-      "kcal": 89,
-      "protein": 1.1,
-      "carbs": 22.8,
-      "fat": 0.3,
-      "fiber": 2.6
-    },
-    "source": "USDA",
-    "fdcId": 173944
-  },
-  {
-    "id": "naranja",
-    "name": "Naranja (cruda)",
-    "baseName": "Naranja",
-    "variant": "cruda",
-    "category": "frutas",
-    "per100g": {
-      "kcal": 47,
-      "protein": 0.9,
-      "carbs": 11.8,
-      "fat": 0.1,
-      "fiber": 2.4
-    },
-    "source": "USDA",
-    "fdcId": 169097
-  },
-  {
-    "id": "fresa",
-    "name": "Fresa (cruda)",
-    "baseName": "Fresa",
-    "variant": "cruda",
-    "category": "frutas",
-    "per100g": {
-      "kcal": 36,
-      "protein": 0.7,
-      "carbs": 7.7,
-      "fat": 0.3,
-      "fiber": 2
-    },
-    "source": "USDA",
-    "fdcId": 167762
-  },
-  {
-    "id": "uva",
-    "name": "Uva (cruda)",
-    "baseName": "Uva",
-    "variant": "cruda",
-    "category": "frutas",
-    "per100g": {
-      "kcal": 77,
-      "protein": 0.7,
-      "carbs": 18.1,
-      "fat": 0.2,
-      "fiber": 0.9
-    },
-    "source": "USDA",
-    "fdcId": 174682
-  },
-  {
-    "id": "pera",
-    "name": "Pera (cruda)",
-    "baseName": "Pera",
-    "variant": "cruda",
-    "category": "frutas",
-    "per100g": {
-      "kcal": 57,
-      "protein": 0.4,
-      "carbs": 15.2,
-      "fat": 0.1,
-      "fiber": 3.1
-    },
-    "source": "USDA",
-    "fdcId": 169120
-  },
-  {
-    "id": "kiwi",
-    "name": "Kiwi (crudo)",
-    "baseName": "Kiwi",
-    "variant": "cruda",
-    "category": "frutas",
-    "per100g": {
-      "kcal": 68,
-      "protein": 1.1,
-      "carbs": 14.7,
-      "fat": 0.5,
-      "fiber": 3
-    },
-    "source": "USDA",
-    "fdcId": 168153
-  },
-  {
-    "id": "mango",
-    "name": "Mango (crudo)",
-    "baseName": "Mango",
-    "variant": "cruda",
-    "category": "frutas",
-    "per100g": {
-      "kcal": 67,
-      "protein": 0.8,
-      "carbs": 15,
-      "fat": 0.4,
-      "fiber": 1.6
-    },
-    "source": "USDA",
-    "fdcId": 169910
-  },
-  {
-    "id": "sandia",
-    "name": "Sandía (cruda)",
-    "baseName": "Sandía",
-    "variant": "cruda",
-    "category": "frutas",
-    "per100g": {
-      "kcal": 35,
-      "protein": 0.6,
-      "carbs": 7.6,
-      "fat": 0.2,
-      "fiber": 0.4
-    },
-    "source": "USDA",
-    "fdcId": 169092
-  },
-  {
-    "id": "melon",
-    "name": "Melón (crudo)",
-    "baseName": "Melón",
-    "variant": "cruda",
-    "category": "frutas",
-    "per100g": {
-      "kcal": 38,
-      "protein": 0.8,
-      "carbs": 8.2,
-      "fat": 0.2,
-      "fiber": 0.9
-    },
-    "source": "USDA",
-    "fdcId": 169911
-  },
-  {
-    "id": "pina",
-    "name": "Piña (cruda)",
-    "baseName": "Piña",
-    "variant": "cruda",
-    "category": "frutas",
-    "per100g": {
-      "kcal": 50,
-      "protein": 0.5,
-      "carbs": 13.1,
-      "fat": 0.1,
-      "fiber": 1.4
-    },
-    "source": "USDA",
-    "fdcId": 169124
-  },
-  {
-    "id": "melocoton",
-    "name": "Melocotón (crudo)",
-    "baseName": "Melocotón",
-    "variant": "cruda",
-    "category": "frutas",
-    "per100g": {
-      "kcal": 44,
-      "protein": 0.9,
-      "carbs": 9.5,
-      "fat": 0.3,
-      "fiber": 1.5
-    },
-    "source": "USDA",
-    "fdcId": 169111
-  },
-  {
-    "id": "cereza",
-    "name": "Cereza (cruda)",
-    "baseName": "Cereza",
-    "variant": "cruda",
-    "category": "frutas",
-    "per100g": {
-      "kcal": 70,
-      "protein": 1.1,
-      "carbs": 16,
-      "fat": 0.2,
-      "fiber": 2.1
-    },
-    "source": "USDA",
-    "fdcId": 171719
+    "fdcId": 9003
   },
   {
     "id": "arandanos",
@@ -1457,6 +842,95 @@
     "fdcId": 171711
   },
   {
+    "id": "caqui",
+    "name": "Caqui (crudo)",
+    "baseName": "Caqui",
+    "category": "frutas",
+    "per100g": {
+      "kcal": 79,
+      "protein": 0.6,
+      "carbs": 18.6,
+      "fat": 0.2
+    },
+    "source": "USDA",
+    "fdcId": 9094
+  },
+  {
+    "id": "cereza",
+    "name": "Cereza (cruda)",
+    "baseName": "Cereza",
+    "variant": "cruda",
+    "category": "frutas",
+    "per100g": {
+      "kcal": 70,
+      "protein": 1.1,
+      "carbs": 16,
+      "fat": 0.2,
+      "fiber": 2.1
+    },
+    "source": "USDA",
+    "fdcId": 171719
+  },
+  {
+    "id": "ciruela",
+    "name": "Ciruela (cruda)",
+    "baseName": "Ciruela",
+    "variant": "cruda",
+    "category": "frutas",
+    "per100g": {
+      "kcal": 46,
+      "protein": 0.7,
+      "carbs": 11.4,
+      "fat": 0.3,
+      "fiber": 1.4
+    },
+    "source": "USDA",
+    "fdcId": 169942
+  },
+  {
+    "id": "ciruelas_pasas",
+    "name": "Ciruelas pasas",
+    "baseName": "Ciruelas pasas",
+    "category": "frutas",
+    "per100g": {
+      "kcal": 268,
+      "protein": 2.2,
+      "carbs": 63.9,
+      "fat": 0.4
+    },
+    "source": "USDA",
+    "fdcId": 9291
+  },
+  {
+    "id": "coco_fresco",
+    "name": "Coco (pulpa fresca)",
+    "baseName": "Coco",
+    "category": "frutas",
+    "per100g": {
+      "kcal": 354,
+      "protein": 3.3,
+      "carbs": 15.2,
+      "fat": 33.5
+    },
+    "source": "USDA",
+    "fdcId": 9077
+  },
+  {
+    "id": "datil",
+    "name": "Dátil (seco)",
+    "baseName": "Dátil",
+    "category": "frutas",
+    "per100g": {
+      "kcal": 314,
+      "protein": 2.5,
+      "carbs": 75,
+      "fat": 0.4,
+      "fiber": 8
+    },
+    "source": "USDA",
+    "fdcId": 168191
+  },
+  {
     "id": "frambuesa",
     "name": "Frambuesa (cruda)",
     "baseName": "Frambuesa",
@@ -1471,6 +945,22 @@
     },
     "source": "USDA",
     "fdcId": 167755
+  },
+  {
+    "id": "fresa",
+    "name": "Fresa (cruda)",
+    "baseName": "Fresa",
+    "variant": "cruda",
+    "category": "frutas",
+    "per100g": {
+      "kcal": 36,
+      "protein": 0.7,
+      "carbs": 7.7,
+      "fat": 0.3,
+      "fiber": 2
+    },
+    "source": "USDA",
+    "fdcId": 167762
   },
   {
     "id": "granada",
@@ -1505,35 +995,184 @@
     "fdcId": 169910
   },
   {
-    "id": "datil",
-    "name": "Dátil (seco)",
-    "baseName": "Dátil",
+    "id": "higos_secos",
+    "name": "Higos secos",
+    "baseName": "Higos secos",
     "category": "frutas",
     "per100g": {
-      "kcal": 314,
-      "protein": 2.5,
-      "carbs": 75,
-      "fat": 0.4,
-      "fiber": 8
+      "kcal": 277,
+      "protein": 3.3,
+      "carbs": 63.9,
+      "fat": 0.9
     },
     "source": "USDA",
-    "fdcId": 168191
+    "fdcId": 9094
   },
   {
-    "id": "ciruela",
-    "name": "Ciruela (cruda)",
-    "baseName": "Ciruela",
+    "id": "kiwi",
+    "name": "Kiwi (crudo)",
+    "baseName": "Kiwi",
     "variant": "cruda",
     "category": "frutas",
     "per100g": {
-      "kcal": 46,
-      "protein": 0.7,
-      "carbs": 11.4,
-      "fat": 0.3,
-      "fiber": 1.4
+      "kcal": 68,
+      "protein": 1.1,
+      "carbs": 14.7,
+      "fat": 0.5,
+      "fiber": 3
     },
     "source": "USDA",
-    "fdcId": 169942
+    "fdcId": 168153
+  },
+  {
+    "id": "lichis",
+    "name": "Lichis (crudos)",
+    "baseName": "Lichis",
+    "category": "frutas",
+    "per100g": {
+      "kcal": 66,
+      "protein": 0.8,
+      "carbs": 16.5,
+      "fat": 0.4
+    },
+    "source": "USDA",
+    "fdcId": 9159
+  },
+  {
+    "id": "limon",
+    "name": "Limón (crudo)",
+    "baseName": "Limón",
+    "category": "frutas",
+    "per100g": {
+      "kcal": 44,
+      "protein": 1.1,
+      "carbs": 9.3,
+      "fat": 0.3
+    },
+    "source": "USDA",
+    "fdcId": 9150
+  },
+  {
+    "id": "mandarina",
+    "name": "Mandarina (cruda)",
+    "baseName": "Mandarina",
+    "category": "frutas",
+    "per100g": {
+      "kcal": 59,
+      "protein": 0.8,
+      "carbs": 13.3,
+      "fat": 0.3
+    },
+    "source": "USDA",
+    "fdcId": 9218
+  },
+  {
+    "id": "mango",
+    "name": "Mango (crudo)",
+    "baseName": "Mango",
+    "variant": "cruda",
+    "category": "frutas",
+    "per100g": {
+      "kcal": 67,
+      "protein": 0.8,
+      "carbs": 15,
+      "fat": 0.4,
+      "fiber": 1.6
+    },
+    "source": "USDA",
+    "fdcId": 169910
+  },
+  {
+    "id": "manzana",
+    "name": "Manzana (cruda)",
+    "baseName": "Manzana",
+    "variant": "cruda",
+    "category": "frutas",
+    "per100g": {
+      "kcal": 58,
+      "protein": 0.3,
+      "carbs": 13.8,
+      "fat": 0.2,
+      "fiber": 2.4
+    },
+    "source": "USDA",
+    "fdcId": 171688
+  },
+  {
+    "id": "maracuya",
+    "name": "Maracuyá (crudo)",
+    "baseName": "Maracuyá",
+    "category": "frutas",
+    "per100g": {
+      "kcal": 109,
+      "protein": 2.2,
+      "carbs": 23.4,
+      "fat": 0.7
+    },
+    "source": "USDA",
+    "fdcId": 9231
+  },
+  {
+    "id": "melocoton",
+    "name": "Melocotón (crudo)",
+    "baseName": "Melocotón",
+    "variant": "cruda",
+    "category": "frutas",
+    "per100g": {
+      "kcal": 44,
+      "protein": 0.9,
+      "carbs": 9.5,
+      "fat": 0.3,
+      "fiber": 1.5
+    },
+    "source": "USDA",
+    "fdcId": 169111
+  },
+  {
+    "id": "melon",
+    "name": "Melón (crudo)",
+    "baseName": "Melón",
+    "variant": "cruda",
+    "category": "frutas",
+    "per100g": {
+      "kcal": 38,
+      "protein": 0.8,
+      "carbs": 8.2,
+      "fat": 0.2,
+      "fiber": 0.9
+    },
+    "source": "USDA",
+    "fdcId": 169911
+  },
+  {
+    "id": "mora",
+    "name": "Mora (cruda)",
+    "baseName": "Mora",
+    "category": "frutas",
+    "per100g": {
+      "kcal": 48,
+      "protein": 1.4,
+      "carbs": 9.6,
+      "fat": 0.5
+    },
+    "source": "USDA",
+    "fdcId": 9042
+  },
+  {
+    "id": "naranja",
+    "name": "Naranja (cruda)",
+    "baseName": "Naranja",
+    "variant": "cruda",
+    "category": "frutas",
+    "per100g": {
+      "kcal": 47,
+      "protein": 0.9,
+      "carbs": 11.8,
+      "fat": 0.1,
+      "fiber": 2.4
+    },
+    "source": "USDA",
+    "fdcId": 169097
   },
   {
     "id": "nectarina",
@@ -1552,6 +1191,128 @@
     "fdcId": 169102
   },
   {
+    "id": "papaya",
+    "name": "Papaya (cruda)",
+    "baseName": "Papaya",
+    "category": "frutas",
+    "per100g": {
+      "kcal": 48,
+      "protein": 0.5,
+      "carbs": 10.8,
+      "fat": 0.3
+    },
+    "source": "USDA",
+    "fdcId": 9226
+  },
+  {
+    "id": "pasas",
+    "name": "Pasas (uva seca)",
+    "baseName": "Pasas",
+    "category": "frutas",
+    "per100g": {
+      "kcal": 334,
+      "protein": 3.1,
+      "carbs": 79.2,
+      "fat": 0.5
+    },
+    "source": "USDA",
+    "fdcId": 9299
+  },
+  {
+    "id": "pera",
+    "name": "Pera (cruda)",
+    "baseName": "Pera",
+    "variant": "cruda",
+    "category": "frutas",
+    "per100g": {
+      "kcal": 57,
+      "protein": 0.4,
+      "carbs": 15.2,
+      "fat": 0.1,
+      "fiber": 3.1
+    },
+    "source": "USDA",
+    "fdcId": 169120
+  },
+  {
+    "id": "pina",
+    "name": "Piña (cruda)",
+    "baseName": "Piña",
+    "variant": "cruda",
+    "category": "frutas",
+    "per100g": {
+      "kcal": 50,
+      "protein": 0.5,
+      "carbs": 13.1,
+      "fat": 0.1,
+      "fiber": 1.4
+    },
+    "source": "USDA",
+    "fdcId": 169124
+  },
+  {
+    "id": "platano",
+    "name": "Plátano (crudo)",
+    "baseName": "Plátano",
+    "variant": "cruda",
+    "category": "frutas",
+    "per100g": {
+      "kcal": 89,
+      "protein": 1.1,
+      "carbs": 22.8,
+      "fat": 0.3,
+      "fiber": 2.6
+    },
+    "source": "USDA",
+    "fdcId": 173944
+  },
+  {
+    "id": "pomelo",
+    "name": "Pomelo (crudo)",
+    "baseName": "Pomelo",
+    "category": "frutas",
+    "per100g": {
+      "kcal": 47,
+      "protein": 0.8,
+      "carbs": 10.7,
+      "fat": 0.1
+    },
+    "source": "USDA",
+    "fdcId": 9112
+  },
+  {
+    "id": "sandia",
+    "name": "Sandía (cruda)",
+    "baseName": "Sandía",
+    "variant": "cruda",
+    "category": "frutas",
+    "per100g": {
+      "kcal": 35,
+      "protein": 0.6,
+      "carbs": 7.6,
+      "fat": 0.2,
+      "fiber": 0.4
+    },
+    "source": "USDA",
+    "fdcId": 169092
+  },
+  {
+    "id": "uva",
+    "name": "Uva (cruda)",
+    "baseName": "Uva",
+    "variant": "cruda",
+    "category": "frutas",
+    "per100g": {
+      "kcal": 77,
+      "protein": 0.7,
+      "carbs": 18.1,
+      "fat": 0.2,
+      "fiber": 0.9
+    },
+    "source": "USDA",
+    "fdcId": 174682
+  },
+  {
     "id": "almendras",
     "name": "Almendras",
     "baseName": "Almendras",
@@ -1567,21 +1328,6 @@
     "fdcId": 170567
   },
   {
-    "id": "nueces",
-    "name": "Nueces",
-    "baseName": "Nueces",
-    "category": "frutos_secos",
-    "per100g": {
-      "kcal": 654,
-      "protein": 15.2,
-      "carbs": 13.7,
-      "fat": 65.2,
-      "fiber": 6.7
-    },
-    "source": "USDA",
-    "fdcId": 170187
-  },
-  {
     "id": "anacardos",
     "name": "Anacardos",
     "baseName": "Anacardos",
@@ -1594,21 +1340,6 @@
     },
     "source": "USDA",
     "fdcId": 170162
-  },
-  {
-    "id": "pistachos",
-    "name": "Pistachos",
-    "baseName": "Pistachos",
-    "category": "frutos_secos",
-    "per100g": {
-      "kcal": 560,
-      "protein": 20.2,
-      "carbs": 27.2,
-      "fat": 45.3,
-      "fiber": 10.6
-    },
-    "source": "USDA",
-    "fdcId": 170185
   },
   {
     "id": "avellanas",
@@ -1626,6 +1357,79 @@
     "fdcId": 170581
   },
   {
+    "id": "cacahuetes",
+    "name": "Cacahuetes",
+    "baseName": "Cacahuetes",
+    "category": "frutos_secos",
+    "per100g": {
+      "kcal": 567,
+      "protein": 25.8,
+      "carbs": 16.1,
+      "fat": 49.2,
+      "fiber": 8.5
+    },
+    "source": "USDA",
+    "fdcId": 172430
+  },
+  {
+    "id": "coco_rallado",
+    "name": "Coco rallado (seco)",
+    "baseName": "Coco rallado",
+    "category": "frutos_secos",
+    "per100g": {
+      "kcal": 660,
+      "protein": 6.9,
+      "carbs": 23.7,
+      "fat": 64.5
+    },
+    "source": "USDA",
+    "fdcId": 169120
+  },
+  {
+    "id": "harina_almendra",
+    "name": "Harina de almendra",
+    "baseName": "Harina de almendra",
+    "category": "frutos_secos",
+    "per100g": {
+      "kcal": 571,
+      "protein": 21.4,
+      "carbs": 21.4,
+      "fat": 50.0
+    },
+    "source": "USDA",
+    "fdcId": 170567
+  },
+  {
+    "id": "mantequilla_cacahuete",
+    "name": "Mantequilla de cacahuete",
+    "baseName": "Mantequilla de cacahuete",
+    "category": "frutos_secos",
+    "per100g": {
+      "kcal": 588,
+      "protein": 25.1,
+      "carbs": 20.1,
+      "fat": 50.4,
+      "fiber": 6
+    },
+    "source": "USDA",
+    "fdcId": 172470
+  },
+  {
+    "id": "nueces",
+    "name": "Nueces",
+    "baseName": "Nueces",
+    "category": "frutos_secos",
+    "per100g": {
+      "kcal": 654,
+      "protein": 15.2,
+      "carbs": 13.7,
+      "fat": 65.2,
+      "fiber": 6.7
+    },
+    "source": "USDA",
+    "fdcId": 170187
+  },
+  {
     "id": "pipas_girasol",
     "name": "Pipas de girasol",
     "baseName": "Pipas de girasol",
@@ -1639,6 +1443,49 @@
     },
     "source": "USDA",
     "fdcId": 170562
+  },
+  {
+    "id": "pistachos",
+    "name": "Pistachos",
+    "baseName": "Pistachos",
+    "category": "frutos_secos",
+    "per100g": {
+      "kcal": 560,
+      "protein": 20.2,
+      "carbs": 27.2,
+      "fat": 45.3,
+      "fiber": 10.6
+    },
+    "source": "USDA",
+    "fdcId": 170185
+  },
+  {
+    "id": "pinones",
+    "name": "Piñones",
+    "baseName": "Piñones",
+    "category": "frutos_secos",
+    "per100g": {
+      "kcal": 673,
+      "protein": 13.7,
+      "carbs": 13.1,
+      "fat": 68.4
+    },
+    "source": "USDA",
+    "fdcId": 170591
+  },
+  {
+    "id": "pipas_calabaza",
+    "name": "Semillas de calabaza (pepitas)",
+    "baseName": "Semillas de calabaza",
+    "category": "frutos_secos",
+    "per100g": {
+      "kcal": 559,
+      "protein": 30.2,
+      "carbs": 10.7,
+      "fat": 49.1
+    },
+    "source": "USDA",
+    "fdcId": 170556
   },
   {
     "id": "semillas_chia",
@@ -1671,34 +1518,18 @@
     "fdcId": 169414
   },
   {
-    "id": "cacahuetes",
-    "name": "Cacahuetes",
-    "baseName": "Cacahuetes",
+    "id": "semillas_sesamo",
+    "name": "Semillas de sésamo",
+    "baseName": "Semillas de sésamo",
     "category": "frutos_secos",
     "per100g": {
-      "kcal": 567,
-      "protein": 25.8,
-      "carbs": 16.1,
-      "fat": 49.2,
-      "fiber": 8.5
+      "kcal": 573,
+      "protein": 17.7,
+      "carbs": 23.5,
+      "fat": 49.7
     },
     "source": "USDA",
-    "fdcId": 172430
-  },
-  {
-    "id": "mantequilla_cacahuete",
-    "name": "Mantequilla de cacahuete",
-    "baseName": "Mantequilla de cacahuete",
-    "category": "frutos_secos",
-    "per100g": {
-      "kcal": 588,
-      "protein": 25.1,
-      "carbs": 20.1,
-      "fat": 50.4,
-      "fiber": 6
-    },
-    "source": "USDA",
-    "fdcId": 172470
+    "fdcId": 170150
   },
   {
     "id": "tahini",
@@ -1715,60 +1546,605 @@
     "fdcId": 170172
   },
   {
-    "id": "aceite_oliva",
-    "name": "Aceite de oliva virgen extra",
-    "baseName": "Aceite de oliva",
-    "category": "aceites",
+    "id": "clara_huevo",
+    "name": "Clara de huevo",
+    "baseName": "Clara de huevo",
+    "category": "huevos",
     "per100g": {
-      "kcal": 884,
-      "protein": 0,
-      "carbs": 0,
-      "fat": 100
+      "kcal": 52,
+      "protein": 10.9,
+      "carbs": 0.7,
+      "fat": 0.2
     },
     "source": "USDA",
-    "fdcId": 171413
+    "fdcId": 172184
   },
   {
-    "id": "aceite_girasol",
-    "name": "Aceite de girasol",
-    "baseName": "Aceite de girasol",
-    "category": "aceites",
+    "id": "huevo_entero",
+    "name": "Huevo entero",
+    "baseName": "Huevo entero",
+    "category": "huevos",
     "per100g": {
-      "kcal": 884,
-      "protein": 0,
-      "carbs": 0,
-      "fat": 100
+      "kcal": 143,
+      "protein": 12.6,
+      "carbs": 0.7,
+      "fat": 9.5
     },
     "source": "USDA",
-    "fdcId": 171410
+    "fdcId": 173424
   },
   {
-    "id": "aceite_coco",
-    "name": "Aceite de coco",
-    "baseName": "Aceite de coco",
-    "category": "aceites",
+    "id": "yema_huevo",
+    "name": "Yema de huevo",
+    "baseName": "Yema de huevo",
+    "category": "huevos",
     "per100g": {
-      "kcal": 862,
-      "protein": 0,
-      "carbs": 0,
-      "fat": 99.1
+      "kcal": 322,
+      "protein": 15.9,
+      "carbs": 3.6,
+      "fat": 26.5
     },
     "source": "USDA",
-    "fdcId": 173754
+    "fdcId": 172185
   },
   {
-    "id": "miel",
-    "name": "Miel",
-    "baseName": "Miel",
-    "category": "otros",
+    "id": "leche_almendra",
+    "name": "Bebida de almendra (sin azúcar)",
+    "baseName": "Bebida de almendra",
+    "category": "lacteos",
     "per100g": {
-      "kcal": 304,
-      "protein": 0.3,
-      "carbs": 82.4,
-      "fat": 0
+      "kcal": 15,
+      "protein": 0.4,
+      "carbs": 0.3,
+      "fat": 1.2
     },
     "source": "USDA",
-    "fdcId": 169640
+    "fdcId": 174832
+  },
+  {
+    "id": "leche_avena",
+    "name": "Bebida de avena",
+    "baseName": "Bebida de avena",
+    "category": "lacteos",
+    "per100g": {
+      "kcal": 46,
+      "protein": 1.0,
+      "carbs": 8.0,
+      "fat": 1.5
+    },
+    "source": "BEDCA"
+  },
+  {
+    "id": "leche_soja",
+    "name": "Bebida de soja (sin azúcar)",
+    "baseName": "Bebida de soja",
+    "category": "lacteos",
+    "per100g": {
+      "kcal": 33,
+      "protein": 2.9,
+      "carbs": 1.8,
+      "fat": 1.8
+    },
+    "source": "USDA",
+    "fdcId": 174832
+  },
+  {
+    "id": "helado_vainilla",
+    "name": "Helado de vainilla",
+    "baseName": "Helado de vainilla",
+    "category": "lacteos",
+    "per100g": {
+      "kcal": 207,
+      "protein": 3.5,
+      "carbs": 23.6,
+      "fat": 11.0
+    },
+    "source": "USDA",
+    "fdcId": 173183
+  },
+  {
+    "id": "kefir",
+    "name": "Kéfir (entero)",
+    "baseName": "Kéfir",
+    "category": "lacteos",
+    "per100g": {
+      "kcal": 61,
+      "protein": 3.3,
+      "carbs": 4.5,
+      "fat": 3.5
+    },
+    "source": "USDA",
+    "fdcId": 173483
+  },
+  {
+    "id": "leche_cabra",
+    "name": "Leche de cabra",
+    "baseName": "Leche de cabra",
+    "category": "lacteos",
+    "per100g": {
+      "kcal": 69,
+      "protein": 3.6,
+      "carbs": 4.5,
+      "fat": 4.1
+    },
+    "source": "USDA",
+    "fdcId": 173435
+  },
+  {
+    "id": "leche_desnatada",
+    "name": "Leche desnatada",
+    "baseName": "Leche desnatada",
+    "category": "lacteos",
+    "per100g": {
+      "kcal": 34,
+      "protein": 3.4,
+      "carbs": 5.1,
+      "fat": 0.1
+    },
+    "source": "USDA",
+    "fdcId": 171267
+  },
+  {
+    "id": "leche_entera",
+    "name": "Leche entera",
+    "baseName": "Leche entera",
+    "category": "lacteos",
+    "per100g": {
+      "kcal": 61,
+      "protein": 3.2,
+      "carbs": 4.8,
+      "fat": 3.3
+    },
+    "source": "USDA",
+    "fdcId": 171265
+  },
+  {
+    "id": "leche_semidesnatada",
+    "name": "Leche semidesnatada",
+    "baseName": "Leche semidesnatada",
+    "category": "lacteos",
+    "per100g": {
+      "kcal": 46,
+      "protein": 3.3,
+      "carbs": 4.8,
+      "fat": 1.5
+    },
+    "source": "USDA",
+    "fdcId": 171266
+  },
+  {
+    "id": "mantequilla",
+    "name": "Mantequilla",
+    "baseName": "Mantequilla",
+    "category": "lacteos",
+    "per100g": {
+      "kcal": 717,
+      "protein": 0.9,
+      "carbs": 0.1,
+      "fat": 81.1
+    },
+    "source": "USDA",
+    "fdcId": 173430
+  },
+  {
+    "id": "mozzarella",
+    "name": "Mozzarella",
+    "baseName": "Mozzarella",
+    "category": "lacteos",
+    "per100g": {
+      "kcal": 280,
+      "protein": 28.1,
+      "carbs": 3.1,
+      "fat": 17
+    },
+    "source": "USDA",
+    "fdcId": 170848
+  },
+  {
+    "id": "nata_montada",
+    "name": "Nata montada",
+    "baseName": "Nata montada",
+    "category": "lacteos",
+    "per100g": {
+      "kcal": 257,
+      "protein": 2.1,
+      "carbs": 3.2,
+      "fat": 26.7
+    },
+    "source": "USDA",
+    "fdcId": 170859
+  },
+  {
+    "id": "nata_liquida",
+    "name": "Nata para cocinar",
+    "baseName": "Nata",
+    "category": "lacteos",
+    "per100g": {
+      "kcal": 292,
+      "protein": 2.1,
+      "carbs": 3.4,
+      "fat": 29.9
+    },
+    "source": "USDA",
+    "fdcId": 170859
+  },
+  {
+    "id": "queso_brie",
+    "name": "Queso brie",
+    "baseName": "Queso brie",
+    "category": "lacteos",
+    "per100g": {
+      "kcal": 334,
+      "protein": 20.7,
+      "carbs": 0.5,
+      "fat": 27.7
+    },
+    "source": "USDA",
+    "fdcId": 173418
+  },
+  {
+    "id": "queso_crema",
+    "name": "Queso crema (tipo Philadelphia)",
+    "baseName": "Queso crema",
+    "category": "lacteos",
+    "per100g": {
+      "kcal": 342,
+      "protein": 6.0,
+      "carbs": 4.1,
+      "fat": 34.0
+    },
+    "source": "USDA",
+    "fdcId": 173418
+  },
+  {
+    "id": "queso_cabra",
+    "name": "Queso de cabra (tierno)",
+    "baseName": "Queso de cabra",
+    "category": "lacteos",
+    "per100g": {
+      "kcal": 364,
+      "protein": 21.6,
+      "carbs": 0.1,
+      "fat": 30.5
+    },
+    "source": "USDA",
+    "fdcId": 173442
+  },
+  {
+    "id": "queso_fresco",
+    "name": "Queso fresco",
+    "baseName": "Queso fresco",
+    "category": "lacteos",
+    "per100g": {
+      "kcal": 99,
+      "protein": 11.1,
+      "carbs": 3.4,
+      "fat": 4
+    },
+    "source": "USDA",
+    "fdcId": 173418
+  },
+  {
+    "id": "queso_gouda",
+    "name": "Queso gouda",
+    "baseName": "Queso gouda",
+    "category": "lacteos",
+    "per100g": {
+      "kcal": 356,
+      "protein": 25.0,
+      "carbs": 2.2,
+      "fat": 27.4
+    },
+    "source": "USDA",
+    "fdcId": 173426
+  },
+  {
+    "id": "queso_manchego",
+    "name": "Queso manchego",
+    "baseName": "Queso manchego",
+    "category": "lacteos",
+    "per100g": {
+      "kcal": 395,
+      "protein": 26.9,
+      "carbs": 0.5,
+      "fat": 32
+    },
+    "source": "USDA",
+    "fdcId": 173420
+  },
+  {
+    "id": "queso_parmesano",
+    "name": "Queso parmesano",
+    "baseName": "Queso parmesano",
+    "category": "lacteos",
+    "per100g": {
+      "kcal": 431,
+      "protein": 38.5,
+      "carbs": 3.2,
+      "fat": 29.0
+    },
+    "source": "USDA",
+    "fdcId": 173414
+  },
+  {
+    "id": "queso_roquefort",
+    "name": "Queso roquefort",
+    "baseName": "Queso roquefort",
+    "category": "lacteos",
+    "per100g": {
+      "kcal": 369,
+      "protein": 21.5,
+      "carbs": 2.0,
+      "fat": 30.6
+    },
+    "source": "USDA",
+    "fdcId": 173440
+  },
+  {
+    "id": "requeson",
+    "name": "Requesón",
+    "baseName": "Requesón",
+    "category": "lacteos",
+    "per100g": {
+      "kcal": 98,
+      "protein": 11.1,
+      "carbs": 3.4,
+      "fat": 4.3
+    },
+    "source": "USDA",
+    "fdcId": 173420
+  },
+  {
+    "id": "yogur_griego",
+    "name": "Yogur griego",
+    "baseName": "Yogur griego",
+    "category": "lacteos",
+    "per100g": {
+      "kcal": 97,
+      "protein": 9,
+      "carbs": 3.6,
+      "fat": 5
+    },
+    "source": "USDA",
+    "fdcId": 170887
+  },
+  {
+    "id": "yogur_natural",
+    "name": "Yogur natural",
+    "baseName": "Yogur natural",
+    "category": "lacteos",
+    "per100g": {
+      "kcal": 59,
+      "protein": 3.5,
+      "carbs": 4.7,
+      "fat": 3.3
+    },
+    "source": "USDA",
+    "fdcId": 170886
+  },
+  {
+    "id": "alubias_cocidas",
+    "name": "Alubias blancas (cocidas)",
+    "baseName": "Alubias blancas",
+    "variant": "cocinada",
+    "category": "legumbres",
+    "per100g": {
+      "kcal": 139,
+      "protein": 9.7,
+      "carbs": 25.1,
+      "fat": 0.4,
+      "fiber": 10.5
+    },
+    "source": "USDA",
+    "fdcId": 175194
+  },
+  {
+    "id": "alubias_negras_cocidas",
+    "name": "Alubias negras (cocidas)",
+    "baseName": "Alubias negras",
+    "variant": "cocinada",
+    "category": "legumbres",
+    "per100g": {
+      "kcal": 132,
+      "protein": 8.9,
+      "carbs": 23.7,
+      "fat": 0.5
+    },
+    "source": "USDA",
+    "fdcId": 173735
+  },
+  {
+    "id": "alubias_pintas_cocidas",
+    "name": "Alubias pintas (cocidas)",
+    "baseName": "Alubias pintas",
+    "variant": "cocinada",
+    "category": "legumbres",
+    "per100g": {
+      "kcal": 143,
+      "protein": 9.0,
+      "carbs": 26.2,
+      "fat": 0.5
+    },
+    "source": "USDA",
+    "fdcId": 173733
+  },
+  {
+    "id": "edamame",
+    "name": "Edamame",
+    "baseName": "Edamame",
+    "category": "legumbres",
+    "per100g": {
+      "kcal": 122,
+      "protein": 11.9,
+      "carbs": 8.9,
+      "fat": 5.2,
+      "fiber": 5.2
+    },
+    "source": "USDA",
+    "fdcId": 168411
+  },
+  {
+    "id": "garbanzos_cocidos",
+    "name": "Garbanzos (cocidos)",
+    "baseName": "Garbanzos",
+    "variant": "cocinada",
+    "category": "legumbres",
+    "per100g": {
+      "kcal": 164,
+      "protein": 8.9,
+      "carbs": 27.4,
+      "fat": 2.6,
+      "fiber": 7.6
+    },
+    "source": "USDA",
+    "fdcId": 173757
+  },
+  {
+    "id": "garbanzos_crudos",
+    "name": "Garbanzos (crudos)",
+    "baseName": "Garbanzos",
+    "variant": "cruda",
+    "category": "legumbres",
+    "per100g": {
+      "kcal": 364,
+      "protein": 19.3,
+      "carbs": 61,
+      "fat": 6,
+      "fiber": 17.4
+    },
+    "source": "USDA",
+    "fdcId": 173756
+  },
+  {
+    "id": "guisantes_secos",
+    "name": "Guisantes secos",
+    "baseName": "Guisantes secos",
+    "category": "legumbres",
+    "per100g": {
+      "kcal": 342,
+      "protein": 24.6,
+      "carbs": 60.4,
+      "fat": 1.2
+    },
+    "source": "BEDCA"
+  },
+  {
+    "id": "habas_cocidas",
+    "name": "Habas (cocidas)",
+    "baseName": "Habas",
+    "variant": "cocinada",
+    "category": "legumbres",
+    "per100g": {
+      "kcal": 110,
+      "protein": 7.9,
+      "carbs": 19.7,
+      "fat": 0.4
+    },
+    "source": "BEDCA"
+  },
+  {
+    "id": "hummus",
+    "name": "Hummus",
+    "baseName": "Hummus",
+    "category": "legumbres",
+    "per100g": {
+      "kcal": 177,
+      "protein": 4.9,
+      "carbs": 14.3,
+      "fat": 10.9
+    },
+    "source": "USDA",
+    "fdcId": 174289
+  },
+  {
+    "id": "lentejas_cocidas",
+    "name": "Lentejas (cocidas)",
+    "baseName": "Lentejas",
+    "variant": "cocinada",
+    "category": "legumbres",
+    "per100g": {
+      "kcal": 116,
+      "protein": 9,
+      "carbs": 20.1,
+      "fat": 0.4,
+      "fiber": 7.9
+    },
+    "source": "USDA",
+    "fdcId": 172421
+  },
+  {
+    "id": "lentejas_crudas",
+    "name": "Lentejas (crudas)",
+    "baseName": "Lentejas",
+    "variant": "cruda",
+    "category": "legumbres",
+    "per100g": {
+      "kcal": 352,
+      "protein": 24.6,
+      "carbs": 60.1,
+      "fat": 1.1,
+      "fiber": 10.7
+    },
+    "source": "USDA",
+    "fdcId": 172420
+  },
+  {
+    "id": "soja_cocida",
+    "name": "Soja (cocida)",
+    "baseName": "Soja",
+    "variant": "cocinada",
+    "category": "legumbres",
+    "per100g": {
+      "kcal": 173,
+      "protein": 16.6,
+      "carbs": 9.9,
+      "fat": 9,
+      "fiber": 6
+    },
+    "source": "USDA",
+    "fdcId": 174270
+  },
+  {
+    "id": "soja_texturizada",
+    "name": "Soja texturizada (seca)",
+    "baseName": "Soja texturizada",
+    "category": "legumbres",
+    "per100g": {
+      "kcal": 329,
+      "protein": 51.5,
+      "carbs": 28.0,
+      "fat": 1.0
+    },
+    "source": "USDA",
+    "fdcId": 174292
+  },
+  {
+    "id": "tempeh",
+    "name": "Tempeh",
+    "baseName": "Tempeh",
+    "category": "legumbres",
+    "per100g": {
+      "kcal": 193,
+      "protein": 20.3,
+      "carbs": 7.6,
+      "fat": 10.8
+    },
+    "source": "USDA",
+    "fdcId": 174272
+  },
+  {
+    "id": "tofu",
+    "name": "Tofu (firme)",
+    "baseName": "Tofu",
+    "category": "legumbres",
+    "per100g": {
+      "kcal": 76,
+      "protein": 8.1,
+      "carbs": 1.9,
+      "fat": 4.2
+    },
+    "source": "USDA",
+    "fdcId": 172470
   },
   {
     "id": "azucar",
@@ -1785,18 +2161,18 @@
     "fdcId": 169655
   },
   {
-    "id": "chocolate_negro",
-    "name": "Chocolate negro 70%",
-    "baseName": "Chocolate negro",
+    "id": "cacao_puro",
+    "name": "Cacao en polvo (puro, sin azúcar)",
+    "baseName": "Cacao en polvo",
     "category": "otros",
     "per100g": {
-      "kcal": 598,
-      "protein": 7.8,
-      "carbs": 45.9,
-      "fat": 42.6
+      "kcal": 229,
+      "protein": 19.6,
+      "carbs": 10.0,
+      "fat": 13.7
     },
     "source": "USDA",
-    "fdcId": 170273
+    "fdcId": 169593
   },
   {
     "id": "chocolate_leche",
@@ -1813,6 +2189,62 @@
     "fdcId": 170270
   },
   {
+    "id": "chocolate_negro",
+    "name": "Chocolate negro 70%",
+    "baseName": "Chocolate negro",
+    "category": "otros",
+    "per100g": {
+      "kcal": 598,
+      "protein": 7.8,
+      "carbs": 45.9,
+      "fat": 42.6
+    },
+    "source": "USDA",
+    "fdcId": 170273
+  },
+  {
+    "id": "ketchup",
+    "name": "Kétchup",
+    "baseName": "Kétchup",
+    "category": "otros",
+    "per100g": {
+      "kcal": 112,
+      "protein": 1.6,
+      "carbs": 25.3,
+      "fat": 0.4
+    },
+    "source": "USDA",
+    "fdcId": 172258
+  },
+  {
+    "id": "levadura_nutricional",
+    "name": "Levadura nutricional",
+    "baseName": "Levadura nutricional",
+    "category": "otros",
+    "per100g": {
+      "kcal": 366,
+      "protein": 46.3,
+      "carbs": 28.9,
+      "fat": 7.2
+    },
+    "source": "USDA",
+    "fdcId": 174004
+  },
+  {
+    "id": "mayonesa",
+    "name": "Mayonesa",
+    "baseName": "Mayonesa",
+    "category": "otros",
+    "per100g": {
+      "kcal": 680,
+      "protein": 1.0,
+      "carbs": 0.6,
+      "fat": 74.9
+    },
+    "source": "USDA",
+    "fdcId": 172359
+  },
+  {
     "id": "mermelada",
     "name": "Mermelada (media)",
     "baseName": "Mermelada",
@@ -1825,5 +2257,1108 @@
     },
     "source": "USDA",
     "fdcId": 169092
+  },
+  {
+    "id": "miel",
+    "name": "Miel",
+    "baseName": "Miel",
+    "category": "otros",
+    "per100g": {
+      "kcal": 304,
+      "protein": 0.3,
+      "carbs": 82.4,
+      "fat": 0
+    },
+    "source": "USDA",
+    "fdcId": 169640
+  },
+  {
+    "id": "mostaza",
+    "name": "Mostaza",
+    "baseName": "Mostaza",
+    "category": "otros",
+    "per100g": {
+      "kcal": 75,
+      "protein": 4.4,
+      "carbs": 5.7,
+      "fat": 3.8
+    },
+    "source": "USDA",
+    "fdcId": 172260
+  },
+  {
+    "id": "proteina_vegetal",
+    "name": "Proteína de guisante",
+    "baseName": "Proteína de guisante",
+    "category": "otros",
+    "per100g": {
+      "kcal": 355,
+      "protein": 80.0,
+      "carbs": 7.0,
+      "fat": 2.0
+    },
+    "source": "USDA",
+    "fdcId": 173178
+  },
+  {
+    "id": "whey_protein",
+    "name": "Proteína de suero (whey isolate)",
+    "baseName": "Proteína de suero",
+    "category": "otros",
+    "per100g": {
+      "kcal": 371,
+      "protein": 90.2,
+      "carbs": 3.0,
+      "fat": 1.1
+    },
+    "source": "USDA",
+    "fdcId": 173178
+  },
+  {
+    "id": "salsa_soja",
+    "name": "Salsa de soja",
+    "baseName": "Salsa de soja",
+    "category": "otros",
+    "per100g": {
+      "kcal": 60,
+      "protein": 10.5,
+      "carbs": 5.6,
+      "fat": 0.1
+    },
+    "source": "USDA",
+    "fdcId": 172261
+  },
+  {
+    "id": "vinagre_manzana",
+    "name": "Vinagre de manzana",
+    "baseName": "Vinagre de manzana",
+    "category": "otros",
+    "per100g": {
+      "kcal": 4,
+      "protein": 0.0,
+      "carbs": 0.9,
+      "fat": 0.0
+    },
+    "source": "USDA",
+    "fdcId": 173468
+  },
+  {
+    "id": "almejas_raw",
+    "name": "Almejas (crudas)",
+    "baseName": "Almejas",
+    "variant": "cruda",
+    "category": "pescados",
+    "per100g": {
+      "kcal": 86,
+      "protein": 14.7,
+      "carbs": 3.6,
+      "fat": 1.0
+    },
+    "source": "USDA",
+    "fdcId": 174187
+  },
+  {
+    "id": "anchoas_conserva",
+    "name": "Anchoas en conserva (en aceite)",
+    "baseName": "Anchoas en conserva",
+    "category": "pescados",
+    "per100g": {
+      "kcal": 210,
+      "protein": 28.9,
+      "carbs": 0,
+      "fat": 10.4
+    },
+    "source": "USDA",
+    "fdcId": 175153
+  },
+  {
+    "id": "atun_lata_aceite",
+    "name": "Atún en lata (en aceite)",
+    "baseName": "Atún en lata",
+    "category": "pescados",
+    "per100g": {
+      "kcal": 198,
+      "protein": 25.5,
+      "carbs": 0,
+      "fat": 10.9
+    },
+    "source": "USDA",
+    "fdcId": 172027
+  },
+  {
+    "id": "tuna_canned",
+    "name": "Atún en lata (en agua)",
+    "baseName": "Atún en lata",
+    "category": "pescados",
+    "per100g": {
+      "kcal": 116,
+      "protein": 25.5,
+      "carbs": 0,
+      "fat": 1
+    },
+    "source": "USDA",
+    "fdcId": 175159
+  },
+  {
+    "id": "tuna_fresh_raw",
+    "name": "Atún fresco (crudo)",
+    "baseName": "Atún fresco",
+    "variant": "cruda",
+    "category": "pescados",
+    "per100g": {
+      "kcal": 144,
+      "protein": 23.3,
+      "carbs": 0,
+      "fat": 4.9
+    },
+    "source": "USDA",
+    "fdcId": 175158
+  },
+  {
+    "id": "bacalao_raw",
+    "name": "Bacalao (crudo)",
+    "baseName": "Bacalao",
+    "variant": "cruda",
+    "category": "pescados",
+    "per100g": {
+      "kcal": 82,
+      "protein": 17.8,
+      "carbs": 0,
+      "fat": 0.7
+    },
+    "source": "USDA",
+    "fdcId": 174183
+  },
+  {
+    "id": "boquerones_raw",
+    "name": "Boquerones/Anchoas frescos (crudos)",
+    "baseName": "Boquerones",
+    "variant": "cruda",
+    "category": "pescados",
+    "per100g": {
+      "kcal": 131,
+      "protein": 20.0,
+      "carbs": 0,
+      "fat": 5.5
+    },
+    "source": "BEDCA"
+  },
+  {
+    "id": "caballa_raw",
+    "name": "Caballa (cruda)",
+    "baseName": "Caballa",
+    "variant": "cruda",
+    "category": "pescados",
+    "per100g": {
+      "kcal": 205,
+      "protein": 18.6,
+      "carbs": 0,
+      "fat": 14.0
+    },
+    "source": "USDA",
+    "fdcId": 175139
+  },
+  {
+    "id": "calamar_raw",
+    "name": "Calamar (crudo)",
+    "baseName": "Calamar",
+    "variant": "cruda",
+    "category": "pescados",
+    "per100g": {
+      "kcal": 92,
+      "protein": 15.6,
+      "carbs": 3.1,
+      "fat": 1.4
+    },
+    "source": "USDA",
+    "fdcId": 174186
+  },
+  {
+    "id": "cangrejo_cocido",
+    "name": "Cangrejo/Buey de mar (cocido)",
+    "baseName": "Cangrejo",
+    "variant": "cocinada",
+    "category": "pescados",
+    "per100g": {
+      "kcal": 97,
+      "protein": 19.4,
+      "carbs": 0,
+      "fat": 1.8
+    },
+    "source": "USDA",
+    "fdcId": 174192
+  },
+  {
+    "id": "dorada_raw",
+    "name": "Dorada (cruda)",
+    "baseName": "Dorada",
+    "variant": "cruda",
+    "category": "pescados",
+    "per100g": {
+      "kcal": 96,
+      "protein": 18.8,
+      "carbs": 0,
+      "fat": 2
+    },
+    "source": "USDA",
+    "fdcId": 174199
+  },
+  {
+    "id": "gambas_raw",
+    "name": "Gambas (crudas)",
+    "baseName": "Gambas",
+    "variant": "cruda",
+    "category": "pescados",
+    "per100g": {
+      "kcal": 85,
+      "protein": 18,
+      "carbs": 0.9,
+      "fat": 0.5
+    },
+    "source": "USDA",
+    "fdcId": 175180
+  },
+  {
+    "id": "langostinos_raw",
+    "name": "Langostinos (crudos)",
+    "baseName": "Langostinos",
+    "variant": "cruda",
+    "category": "pescados",
+    "per100g": {
+      "kcal": 85,
+      "protein": 18.0,
+      "carbs": 0.2,
+      "fat": 1.2
+    },
+    "source": "BEDCA"
+  },
+  {
+    "id": "lubina_raw",
+    "name": "Lubina (cruda)",
+    "baseName": "Lubina",
+    "variant": "cruda",
+    "category": "pescados",
+    "per100g": {
+      "kcal": 97,
+      "protein": 18.4,
+      "carbs": 0,
+      "fat": 2.5
+    },
+    "source": "USDA",
+    "fdcId": 174200
+  },
+  {
+    "id": "mejillones_cooked",
+    "name": "Mejillones (cocidos)",
+    "baseName": "Mejillones",
+    "variant": "cocinada",
+    "category": "pescados",
+    "per100g": {
+      "kcal": 172,
+      "protein": 23.8,
+      "carbs": 7.4,
+      "fat": 4.5
+    },
+    "source": "USDA",
+    "fdcId": 175177
+  },
+  {
+    "id": "merluza_cocida",
+    "name": "Merluza (cocinada)",
+    "baseName": "Merluza",
+    "variant": "cocinada",
+    "category": "pescados",
+    "per100g": {
+      "kcal": 90,
+      "protein": 18.9,
+      "carbs": 0,
+      "fat": 1.3
+    },
+    "source": "BEDCA"
+  },
+  {
+    "id": "merluza_raw",
+    "name": "Merluza (cruda)",
+    "baseName": "Merluza",
+    "variant": "cruda",
+    "category": "pescados",
+    "per100g": {
+      "kcal": 90,
+      "protein": 17.8,
+      "carbs": 0,
+      "fat": 2
+    },
+    "source": "USDA",
+    "fdcId": 175129
+  },
+  {
+    "id": "pulpo_cocido",
+    "name": "Pulpo (cocido)",
+    "baseName": "Pulpo",
+    "variant": "cocinada",
+    "category": "pescados",
+    "per100g": {
+      "kcal": 164,
+      "protein": 29.8,
+      "carbs": 4.4,
+      "fat": 2.1
+    },
+    "source": "USDA",
+    "fdcId": 174183
+  },
+  {
+    "id": "rape_raw",
+    "name": "Rape (crudo)",
+    "baseName": "Rape",
+    "variant": "cruda",
+    "category": "pescados",
+    "per100g": {
+      "kcal": 76,
+      "protein": 14.5,
+      "carbs": 0,
+      "fat": 1.5
+    },
+    "source": "USDA",
+    "fdcId": 175134
+  },
+  {
+    "id": "rodaballo_raw",
+    "name": "Rodaballo (crudo)",
+    "baseName": "Rodaballo",
+    "variant": "cruda",
+    "category": "pescados",
+    "per100g": {
+      "kcal": 95,
+      "protein": 16.9,
+      "carbs": 0,
+      "fat": 3.0
+    },
+    "source": "USDA",
+    "fdcId": 175167
+  },
+  {
+    "id": "salmon_raw",
+    "name": "Salmón (crudo)",
+    "baseName": "Salmón",
+    "variant": "cruda",
+    "category": "pescados",
+    "per100g": {
+      "kcal": 208,
+      "protein": 20.1,
+      "carbs": 0,
+      "fat": 13.4
+    },
+    "source": "USDA",
+    "fdcId": 175167
+  },
+  {
+    "id": "salmon_ahumado",
+    "name": "Salmón ahumado",
+    "baseName": "Salmón ahumado",
+    "category": "pescados",
+    "per100g": {
+      "kcal": 142,
+      "protein": 19.9,
+      "carbs": 0,
+      "fat": 6.8
+    },
+    "source": "USDA",
+    "fdcId": 174183
+  },
+  {
+    "id": "sardinas_canned",
+    "name": "Sardinas en lata (en aceite)",
+    "baseName": "Sardinas en lata",
+    "category": "pescados",
+    "per100g": {
+      "kcal": 208,
+      "protein": 24.6,
+      "carbs": 0,
+      "fat": 11.5
+    },
+    "source": "USDA",
+    "fdcId": 175139
+  },
+  {
+    "id": "trucha_raw",
+    "name": "Trucha (cruda)",
+    "baseName": "Trucha",
+    "variant": "cruda",
+    "category": "pescados",
+    "per100g": {
+      "kcal": 141,
+      "protein": 19.9,
+      "carbs": 0,
+      "fat": 6.2
+    },
+    "source": "USDA",
+    "fdcId": 175168
+  },
+  {
+    "id": "acelgas",
+    "name": "Acelgas (crudas)",
+    "baseName": "Acelgas",
+    "variant": "cruda",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 24,
+      "protein": 1.8,
+      "carbs": 3.7,
+      "fat": 0.2,
+      "fiber": 1.6
+    },
+    "source": "USDA",
+    "fdcId": 169991
+  },
+  {
+    "id": "aguacate",
+    "name": "Aguacate (crudo)",
+    "baseName": "Aguacate",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 160,
+      "protein": 2.0,
+      "carbs": 8.5,
+      "fat": 14.7
+    },
+    "source": "USDA",
+    "fdcId": 171706
+  },
+  {
+    "id": "ajo",
+    "name": "Ajo (crudo)",
+    "baseName": "Ajo",
+    "variant": "cruda",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 149,
+      "protein": 6.4,
+      "carbs": 33.1,
+      "fat": 0.5,
+      "fiber": 2.1
+    },
+    "source": "USDA",
+    "fdcId": 169230
+  },
+  {
+    "id": "alcachofa_cruda",
+    "name": "Alcachofa (cruda)",
+    "baseName": "Alcachofa",
+    "variant": "cruda",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 35,
+      "protein": 3.3,
+      "carbs": 5.1,
+      "fat": 0.2
+    },
+    "source": "USDA",
+    "fdcId": 11007
+  },
+  {
+    "id": "alga_nori",
+    "name": "Alga nori (seca)",
+    "baseName": "Alga nori",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 36,
+      "protein": 5.8,
+      "carbs": 2.2,
+      "fat": 0.3
+    },
+    "source": "USDA",
+    "fdcId": 168458
+  },
+  {
+    "id": "apio",
+    "name": "Apio (crudo)",
+    "baseName": "Apio",
+    "variant": "cruda",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 17,
+      "protein": 0.7,
+      "carbs": 3,
+      "fat": 0.2,
+      "fiber": 1.6
+    },
+    "source": "USDA",
+    "fdcId": 169988
+  },
+  {
+    "id": "berenjena",
+    "name": "Berenjena (cruda)",
+    "baseName": "Berenjena",
+    "variant": "cruda",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 29,
+      "protein": 1,
+      "carbs": 5.9,
+      "fat": 0.2,
+      "fiber": 3
+    },
+    "source": "USDA",
+    "fdcId": 169228
+  },
+  {
+    "id": "berros",
+    "name": "Berros",
+    "baseName": "Berros",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 11,
+      "protein": 2.3,
+      "carbs": 0.1,
+      "fat": 0.1
+    },
+    "source": "USDA",
+    "fdcId": 11591
+  },
+  {
+    "id": "boniato_crudo",
+    "name": "Boniato/Batata (crudo)",
+    "baseName": "Boniato",
+    "variant": "cruda",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 86,
+      "protein": 1.6,
+      "carbs": 20.1,
+      "fat": 0.1
+    },
+    "source": "USDA",
+    "fdcId": 11507
+  },
+  {
+    "id": "brocoli_cocido",
+    "name": "Brócoli (cocido)",
+    "baseName": "Brócoli",
+    "variant": "cocinada",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 35,
+      "protein": 2.4,
+      "carbs": 5.5,
+      "fat": 0.4
+    },
+    "source": "USDA",
+    "fdcId": 11091
+  },
+  {
+    "id": "brocoli",
+    "name": "Brócoli (crudo)",
+    "baseName": "Brócoli",
+    "variant": "cruda",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 41,
+      "protein": 2.8,
+      "carbs": 6.6,
+      "fat": 0.4,
+      "fiber": 2.6
+    },
+    "source": "USDA",
+    "fdcId": 170379
+  },
+  {
+    "id": "calabacin",
+    "name": "Calabacín (crudo)",
+    "baseName": "Calabacín",
+    "variant": "cruda",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 20,
+      "protein": 1.2,
+      "carbs": 3.1,
+      "fat": 0.3,
+      "fiber": 1
+    },
+    "source": "USDA",
+    "fdcId": 169291
+  },
+  {
+    "id": "calabaza_cruda",
+    "name": "Calabaza (cruda)",
+    "baseName": "Calabaza",
+    "variant": "cruda",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 26,
+      "protein": 1.0,
+      "carbs": 4.7,
+      "fat": 0.1
+    },
+    "source": "USDA",
+    "fdcId": 11422
+  },
+  {
+    "id": "canonigos",
+    "name": "Canónigos",
+    "baseName": "Canónigos",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 21,
+      "protein": 2.0,
+      "carbs": 2.4,
+      "fat": 0.4
+    },
+    "source": "BEDCA"
+  },
+  {
+    "id": "cebolla",
+    "name": "Cebolla (cruda)",
+    "baseName": "Cebolla",
+    "variant": "cruda",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 40,
+      "protein": 1.1,
+      "carbs": 9.3,
+      "fat": 0.1,
+      "fiber": 1.7
+    },
+    "source": "USDA",
+    "fdcId": 170000
+  },
+  {
+    "id": "cebolleta",
+    "name": "Cebolleta (cruda)",
+    "baseName": "Cebolleta",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 32,
+      "protein": 1.8,
+      "carbs": 5.7,
+      "fat": 0.2
+    },
+    "source": "USDA",
+    "fdcId": 11291
+  },
+  {
+    "id": "champinones",
+    "name": "Champiñones (crudos)",
+    "baseName": "Champiñones",
+    "variant": "cruda",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 28,
+      "protein": 3.1,
+      "carbs": 3.3,
+      "fat": 0.3,
+      "fiber": 1
+    },
+    "source": "USDA",
+    "fdcId": 169251
+  },
+  {
+    "id": "col",
+    "name": "Col (cruda)",
+    "baseName": "Col",
+    "variant": "cruda",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 29,
+      "protein": 1.3,
+      "carbs": 5.8,
+      "fat": 0.1,
+      "fiber": 2.5
+    },
+    "source": "USDA",
+    "fdcId": 169975
+  },
+  {
+    "id": "coles_bruselas",
+    "name": "Coles de Bruselas (crudas)",
+    "baseName": "Coles de Bruselas",
+    "variant": "cruda",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 43,
+      "protein": 3.4,
+      "carbs": 6.3,
+      "fat": 0.3
+    },
+    "source": "USDA",
+    "fdcId": 11098
+  },
+  {
+    "id": "coliflor",
+    "name": "Coliflor (cruda)",
+    "baseName": "Coliflor",
+    "variant": "cruda",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 30,
+      "protein": 1.9,
+      "carbs": 5,
+      "fat": 0.3,
+      "fiber": 2
+    },
+    "source": "USDA",
+    "fdcId": 169986
+  },
+  {
+    "id": "endivia",
+    "name": "Endivia (cruda)",
+    "baseName": "Endivia",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 15,
+      "protein": 1.3,
+      "carbs": 2.0,
+      "fat": 0.2
+    },
+    "source": "USDA",
+    "fdcId": 11213
+  },
+  {
+    "id": "espinacas_cocidas",
+    "name": "Espinacas (cocidas)",
+    "baseName": "Espinacas",
+    "variant": "cocinada",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 23,
+      "protein": 2.9,
+      "carbs": 1.9,
+      "fat": 0.3
+    },
+    "source": "USDA",
+    "fdcId": 11458
+  },
+  {
+    "id": "espinacas",
+    "name": "Espinacas (crudas)",
+    "baseName": "Espinacas",
+    "variant": "cruda",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 30,
+      "protein": 2.9,
+      "carbs": 3.6,
+      "fat": 0.4,
+      "fiber": 2.2
+    },
+    "source": "USDA",
+    "fdcId": 168462
+  },
+  {
+    "id": "esparragos",
+    "name": "Espárragos (crudos)",
+    "baseName": "Espárragos",
+    "variant": "cruda",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 25,
+      "protein": 2.2,
+      "carbs": 3.9,
+      "fat": 0.1,
+      "fiber": 2.1
+    },
+    "source": "USDA",
+    "fdcId": 168390
+  },
+  {
+    "id": "guisantes",
+    "name": "Guisantes (crudos)",
+    "baseName": "Guisantes",
+    "variant": "cruda",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 81,
+      "protein": 5.4,
+      "carbs": 14.5,
+      "fat": 0.4,
+      "fiber": 5.1
+    },
+    "source": "USDA",
+    "fdcId": 170419
+  },
+  {
+    "id": "judias_verdes",
+    "name": "Judías verdes (crudas)",
+    "baseName": "Judías verdes",
+    "variant": "cruda",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 36,
+      "protein": 1.8,
+      "carbs": 7,
+      "fat": 0.1,
+      "fiber": 2.7
+    },
+    "source": "USDA",
+    "fdcId": 169961
+  },
+  {
+    "id": "lechuga",
+    "name": "Lechuga (cruda)",
+    "baseName": "Lechuga",
+    "variant": "cruda",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 19,
+      "protein": 1.4,
+      "carbs": 2.9,
+      "fat": 0.2,
+      "fiber": 1.3
+    },
+    "source": "USDA",
+    "fdcId": 169248
+  },
+  {
+    "id": "lombarda",
+    "name": "Lombarda (cruda)",
+    "baseName": "Lombarda",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 31,
+      "protein": 1.4,
+      "carbs": 5.5,
+      "fat": 0.1
+    },
+    "source": "BEDCA"
+  },
+  {
+    "id": "maiz_dulce",
+    "name": "Maíz dulce (cocido)",
+    "baseName": "Maíz dulce",
+    "variant": "cocinada",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 112,
+      "protein": 3.4,
+      "carbs": 21.1,
+      "fat": 1.5,
+      "fiber": 2.4
+    },
+    "source": "USDA",
+    "fdcId": 169998
+  },
+  {
+    "id": "nabo_crudo",
+    "name": "Nabo (crudo)",
+    "baseName": "Nabo",
+    "variant": "cruda",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 28,
+      "protein": 0.9,
+      "carbs": 6.4,
+      "fat": 0.1
+    },
+    "source": "USDA",
+    "fdcId": 11564
+  },
+  {
+    "id": "patata_cocida",
+    "name": "Patata (cocida)",
+    "baseName": "Patata",
+    "variant": "cocinada",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 77,
+      "protein": 1.9,
+      "carbs": 17.0,
+      "fat": 0.1
+    },
+    "source": "BEDCA"
+  },
+  {
+    "id": "patata_cruda",
+    "name": "Patata (cruda)",
+    "baseName": "Patata",
+    "variant": "cruda",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 77,
+      "protein": 2.0,
+      "carbs": 17.5,
+      "fat": 0.1
+    },
+    "source": "BEDCA"
+  },
+  {
+    "id": "pepinillos_vinagre",
+    "name": "Pepinillos en vinagre",
+    "baseName": "Pepinillos",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 11,
+      "protein": 0.7,
+      "carbs": 1.8,
+      "fat": 0.1
+    },
+    "source": "USDA",
+    "fdcId": 11939
+  },
+  {
+    "id": "pepino",
+    "name": "Pepino (crudo)",
+    "baseName": "Pepino",
+    "variant": "cruda",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 18,
+      "protein": 0.7,
+      "carbs": 3.6,
+      "fat": 0.1,
+      "fiber": 0.5
+    },
+    "source": "USDA",
+    "fdcId": 168409
+  },
+  {
+    "id": "pimiento_amarillo",
+    "name": "Pimiento amarillo (crudo)",
+    "baseName": "Pimiento amarillo",
+    "variant": "cruda",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 27,
+      "protein": 1.0,
+      "carbs": 5.1,
+      "fat": 0.2
+    },
+    "source": "USDA",
+    "fdcId": 11951
+  },
+  {
+    "id": "pimiento",
+    "name": "Pimiento rojo (crudo)",
+    "baseName": "Pimiento rojo",
+    "variant": "cruda",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 36,
+      "protein": 1,
+      "carbs": 7.2,
+      "fat": 0.3,
+      "fiber": 2.1
+    },
+    "source": "USDA",
+    "fdcId": 170108
+  },
+  {
+    "id": "pimiento_verde",
+    "name": "Pimiento verde (crudo)",
+    "baseName": "Pimiento verde",
+    "variant": "cruda",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 20,
+      "protein": 0.9,
+      "carbs": 3.5,
+      "fat": 0.2
+    },
+    "source": "USDA",
+    "fdcId": 11821
+  },
+  {
+    "id": "puerro",
+    "name": "Puerro (crudo)",
+    "baseName": "Puerro",
+    "variant": "cruda",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 61,
+      "protein": 1.5,
+      "carbs": 14.2,
+      "fat": 0.3,
+      "fiber": 1.8
+    },
+    "source": "USDA",
+    "fdcId": 169247
+  },
+  {
+    "id": "remolacha",
+    "name": "Remolacha (cruda)",
+    "baseName": "Remolacha",
+    "variant": "cruda",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 43,
+      "protein": 1.6,
+      "carbs": 9.6,
+      "fat": 0.2,
+      "fiber": 2.8
+    },
+    "source": "USDA",
+    "fdcId": 169143
+  },
+  {
+    "id": "rucula",
+    "name": "Rúcula",
+    "baseName": "Rúcula",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 30,
+      "protein": 2.6,
+      "carbs": 3.3,
+      "fat": 0.7
+    },
+    "source": "USDA",
+    "fdcId": 11959
+  },
+  {
+    "id": "tomate",
+    "name": "Tomate (crudo)",
+    "baseName": "Tomate",
+    "variant": "cruda",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 21,
+      "protein": 0.9,
+      "carbs": 3.9,
+      "fat": 0.2,
+      "fiber": 1.2
+    },
+    "source": "USDA",
+    "fdcId": 170457
+  },
+  {
+    "id": "tomate_cherry",
+    "name": "Tomate cherry (crudo)",
+    "baseName": "Tomate cherry",
+    "variant": "cruda",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 18,
+      "protein": 0.9,
+      "carbs": 2.9,
+      "fat": 0.2
+    },
+    "source": "USDA",
+    "fdcId": 170457
+  },
+  {
+    "id": "tomate_frito",
+    "name": "Tomate frito (conserva)",
+    "baseName": "Tomate frito",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 65,
+      "protein": 1.6,
+      "carbs": 6.5,
+      "fat": 3.5
+    },
+    "source": "BEDCA"
+  },
+  {
+    "id": "zanahoria",
+    "name": "Zanahoria (cruda)",
+    "baseName": "Zanahoria",
+    "variant": "cruda",
+    "category": "verduras",
+    "per100g": {
+      "kcal": 41,
+      "protein": 0.9,
+      "carbs": 9.6,
+      "fat": 0.2,
+      "fiber": 2.8
+    },
+    "source": "USDA",
+    "fdcId": 170393
   }
 ]
