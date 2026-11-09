@@ -2,35 +2,39 @@ import { useState } from 'react';
 import { GoalsForm } from './GoalsForm';
 import { FoodDatabase } from './FoodDatabase';
 import { ImportExport } from './ImportExport';
+import { ApiKeyForm } from './ApiKeyForm';
 import { useGoals } from '../../hooks/useGoals';
 
-type Section = 'goals' | 'foods' | 'export';
+type Section = 'goals' | 'foods' | 'export' | 'api';
 
 export function SettingsPage() {
   const [section, setSection] = useState<Section>('goals');
   const { goals, saveGoals } = useGoals();
+
+  const tabs: { id: Section; label: string }[] = [
+    { id: 'goals', label: 'Objetivos' },
+    { id: 'foods', label: 'Alimentos' },
+    { id: 'export', label: 'Exportar' },
+    { id: 'api', label: 'API' },
+  ];
 
   return (
     <div style={{ flex: 1, overflowY: 'auto', paddingBottom: 24 }}>
       <div style={{ padding: '12px 12px 0' }}>
         <h2 style={{ fontSize: 18, fontWeight: 700, marginBottom: 12 }}>Ajustes</h2>
         <div style={{ display: 'flex', gap: 6, background: 'var(--card)', borderRadius: 'var(--radius-sm)', padding: 4 }}>
-          {([
-            { id: 'goals', label: 'Objetivos' },
-            { id: 'foods', label: 'Alimentos' },
-            { id: 'export', label: 'Exportar' },
-          ] as { id: Section; label: string }[]).map(({ id, label }) => (
+          {tabs.map(({ id, label }) => (
             <button
               key={id}
               onClick={() => setSection(id)}
               style={{
                 flex: 1,
-                padding: '8px 4px',
+                padding: '8px 2px',
                 borderRadius: 6,
                 background: section === id ? 'var(--surface)' : 'transparent',
                 color: section === id ? 'var(--text)' : 'var(--muted)',
                 fontWeight: section === id ? 600 : 400,
-                fontSize: 13,
+                fontSize: 12,
               }}
             >
               {label}
@@ -43,6 +47,7 @@ export function SettingsPage() {
         {section === 'goals' && <GoalsForm goals={goals} onSave={saveGoals} />}
         {section === 'foods' && <FoodDatabase />}
         {section === 'export' && <ImportExport />}
+        {section === 'api' && <ApiKeyForm />}
       </div>
     </div>
   );

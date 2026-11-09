@@ -26,7 +26,7 @@ export interface Food {
   variant?: 'cruda' | 'cocinada';
   category: FoodCategory;
   per100g: FoodNutrients;
-  source: 'USDA' | 'custom';
+  source: 'USDA' | 'BEDCA' | 'custom';
   fdcId?: number;
 }
 

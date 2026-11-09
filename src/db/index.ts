@@ -3,11 +3,17 @@ import type { Food, DiaryEntry, Goals, RecentFood } from '../types';
 
 type CustomFood = Food & { _custom: 1 };
 
+interface AppSetting {
+  key: string;
+  value: string;
+}
+
 class MacroTrackerDB extends Dexie {
   foods!: Table<CustomFood, string>;
   entries!: Table<DiaryEntry, string>;
   goals!: Table<Goals & { id: string }, string>;
   recentFoods!: Table<RecentFood, string>;
+  settings!: Table<AppSetting, string>;
 
   constructor() {
     super('MacroTrackerDB');
@@ -16,6 +22,13 @@ class MacroTrackerDB extends Dexie {
       entries: 'id, date, [date+meal]',
       goals: 'id',
       recentFoods: 'foodId, lastUsed, useCount',
+    });
+    this.version(2).stores({
+      foods: 'id, category',
+      entries: 'id, date, [date+meal]',
+      goals: 'id',
+      recentFoods: 'foodId, lastUsed, useCount',
+      settings: 'key',
     });
   }
 }
@@ -91,4 +104,16 @@ export async function saveCustomFood(food: Food): Promise<void> {
 
 export async function deleteCustomFood(id: string): Promise<void> {
   await db.foods.delete(id);
+}
+
+export async function getSetting(key: string): Promise<string | undefined> {
+  return (await db.settings.get(key))?.value;
+}
+
+export async function setSetting(key: string, value: string): Promise<void> {
+  await db.settings.put({ key, value });
+}
+
+export async function deleteSetting(key: string): Promise<void> {
+  await db.settings.delete(key);
 }
