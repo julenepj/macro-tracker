@@ -2,8 +2,8 @@ import { useState, useRef, useEffect, useCallback } from 'react';
 import type { Food } from '../../types';
 import { useFoodSearch } from '../../hooks/useFoodSearch';
 import { CATEGORY_LABELS } from '../../types';
-import { searchUSDA, USDA_DEMO_KEY } from '../../lib/usdaApi';
-import { saveCustomFood, getSetting } from '../../db';
+import { searchOpenFoodFacts } from '../../lib/openFoodFactsApi';
+import { saveCustomFood } from '../../db';
 
 interface FoodSearchProps {
   onSelect: (food: Food) => void;
@@ -26,7 +26,6 @@ export function FoodSearch({ onSelect, autoFocus }: FoodSearchProps) {
     if (autoFocus) setTimeout(() => inputRef.current?.focus(), 100);
   }, [autoFocus]);
 
-  // Reset online results when query changes
   useEffect(() => {
     setOnlineResults([]);
     setOnlineState('idle');
@@ -36,11 +35,9 @@ export function FoodSearch({ onSelect, autoFocus }: FoodSearchProps) {
     if (query.trim().length < 2) return;
     setOnlineState('loading');
     try {
-      const apiKey = (await getSetting('usdaApiKey')) ?? USDA_DEMO_KEY;
-      const results = await searchUSDA(query, apiKey);
-      // Filter out foods already in local DB (by fdcId)
-      const localFdcIds = new Set(localResults.map((f) => f.fdcId).filter(Boolean));
-      setOnlineResults(results.filter((f) => !localFdcIds.has(f.fdcId)));
+      const results = await searchOpenFoodFacts(query);
+      const localIds = new Set(localResults.map((f) => f.id));
+      setOnlineResults(results.filter((f) => !localIds.has(f.id)));
       setOnlineState('done');
     } catch (e) {
       const msg = e instanceof Error ? e.message : '';
@@ -48,10 +45,9 @@ export function FoodSearch({ onSelect, autoFocus }: FoodSearchProps) {
     }
   }, [query, localResults]);
 
-  // Auto-trigger when local results < 3 and user stops typing (1.2s debounce)
   useEffect(() => {
     if (query.trim().length < 2) return;
-    if (localResults.length >= 5) return; // enough local results
+    if (localResults.length >= 5) return;
     if (onlineState !== 'idle') return;
 
     if (debounceRef.current) clearTimeout(debounceRef.current);
@@ -86,7 +82,6 @@ export function FoodSearch({ onSelect, autoFocus }: FoodSearchProps) {
         style={{ borderRadius: 'var(--radius-sm)', fontSize: 15 }}
       />
 
-      {/* Local results */}
       {localResults.length > 0 && (
         <div style={{ marginTop: 4 }}>
           {localResults.map((food) => (
@@ -95,14 +90,12 @@ export function FoodSearch({ onSelect, autoFocus }: FoodSearchProps) {
         </div>
       )}
 
-      {/* Empty local state */}
       {query.length > 1 && localResults.length === 0 && onlineState === 'idle' && (
         <p style={{ color: 'var(--muted)', fontSize: 13, padding: '12px 0', textAlign: 'center' }}>
           Sin resultados locales para "{query}"
         </p>
       )}
 
-      {/* Online search button (when local has enough results) */}
       {showOnlineButton && (
         <button
           onClick={triggerOnlineSearch}
@@ -121,32 +114,28 @@ export function FoodSearch({ onSelect, autoFocus }: FoodSearchProps) {
             gap: 6,
           }}
         >
-          <span>🌐</span> Buscar más en USDA FoodData Central
+          <span>🌐</span> Buscar más en Open Food Facts
         </button>
       )}
 
-      {/* Loading */}
       {onlineState === 'loading' && (
         <p style={{ color: 'var(--muted)', fontSize: 13, padding: '10px 0', textAlign: 'center' }}>
-          Buscando en USDA…
+          Buscando en Open Food Facts…
         </p>
       )}
 
-      {/* Rate limit */}
       {onlineState === 'rate_limit' && (
         <p style={{ color: 'var(--warning)', fontSize: 13, padding: '10px 0', textAlign: 'center' }}>
-          Límite de peticiones alcanzado. Añade tu clave API en Ajustes para más búsquedas.
+          Demasiadas peticiones. Espera un momento e inténtalo de nuevo.
         </p>
       )}
 
-      {/* Error */}
       {onlineState === 'error' && (
         <p style={{ color: 'var(--danger)', fontSize: 13, padding: '10px 0', textAlign: 'center' }}>
-          Error al conectar con USDA. Comprueba tu conexión.
+          Error al conectar con Open Food Facts. Comprueba tu conexión.
         </p>
       )}
 
-      {/* Online results */}
       {onlineState === 'done' && onlineResults.length > 0 && (
         <div style={{ marginTop: 8 }}>
           <div style={{
@@ -160,7 +149,7 @@ export function FoodSearch({ onSelect, autoFocus }: FoodSearchProps) {
             alignItems: 'center',
             gap: 4,
           }}>
-            <span>🌐</span> USDA FoodData Central
+            <span>🌐</span> Open Food Facts
           </div>
           {onlineResults.map((food) => (
             <FoodRow
@@ -175,7 +164,7 @@ export function FoodSearch({ onSelect, autoFocus }: FoodSearchProps) {
 
       {onlineState === 'done' && onlineResults.length === 0 && (
         <p style={{ color: 'var(--muted)', fontSize: 13, padding: '8px 0', textAlign: 'center' }}>
-          Sin resultados adicionales en USDA.
+          Sin resultados adicionales en Open Food Facts.
         </p>
       )}
     </div>

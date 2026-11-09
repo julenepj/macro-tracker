@@ -2,10 +2,9 @@ import { useState } from 'react';
 import { GoalsForm } from './GoalsForm';
 import { FoodDatabase } from './FoodDatabase';
 import { ImportExport } from './ImportExport';
-import { ApiKeyForm } from './ApiKeyForm';
 import { useGoals } from '../../hooks/useGoals';
 
-type Section = 'goals' | 'foods' | 'export' | 'api';
+type Section = 'goals' | 'foods' | 'export';
 
 export function SettingsPage() {
   const [section, setSection] = useState<Section>('goals');
@@ -15,7 +14,6 @@ export function SettingsPage() {
     { id: 'goals', label: 'Objetivos' },
     { id: 'foods', label: 'Alimentos' },
     { id: 'export', label: 'Exportar' },
-    { id: 'api', label: 'API' },
   ];
 
   return (
@@ -47,7 +45,6 @@ export function SettingsPage() {
         {section === 'goals' && <GoalsForm goals={goals} onSave={saveGoals} />}
         {section === 'foods' && <FoodDatabase />}
         {section === 'export' && <ImportExport />}
-        {section === 'api' && <ApiKeyForm />}
       </div>
     </div>
   );
